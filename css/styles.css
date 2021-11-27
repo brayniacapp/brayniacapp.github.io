@@ -5,3 +5,15 @@ img {
 .logo {
 	font-family: 'Roboto Mono', monospace;
 }
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.table a
+{
+    display:block;
+    text-decoration:none;
+    color: black;
+}
