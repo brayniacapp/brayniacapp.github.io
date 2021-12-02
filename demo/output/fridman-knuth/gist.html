@@ -1,0 +1,272 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="../../../css/styles.css" rel="stylesheet">
+    <title>Brayniac | Lex Fridman Podcast</title>
+  </head>
+
+
+  <body>
+
+<div class="container-fluid bg-light mb-2">
+  <nav class="navbar navbar-light">
+    <div class="container">
+     <a class="navbar-brand logo" href="../../index.html">Brayniac</a>
+     <div class="d-flex">
+       <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSc2P6PAxq7QUDchAHPs19Ab4VPxNu4MmmmWNQ4hyU5j7NLMDw/viewform" role="button">Give feedback</a>
+     </div>
+    </div>
+  </nav>
+</div>
+
+<div class="container">
+<h1>#219 – Donald Knuth: Programming, Algorithms, Hard Problems & the Game of Life</h1>
+<h2 class="text-muted mb-2">Lex Fridman Podcast</h2>
+
+<p class="fw-light fst-italic mb-3">Here are some quick tips on reading Brayniac's summary. <strong>Words</strong> contains a transcript of the podcast and <strong>Gist</strong> the summary in the format of bullet points. A horizontal line indicates the end of a thematic segment (both in Words and Gist).</p>
+
+<ul class="nav nav-tabs mb-3">
+  <li class="nav-item">
+    <a class="nav-link" href="words.html">Words</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="gist.html">Gist</a>
+  </li>
+</ul>
+
+<main class="p-1">
+    <div class="mb-4">
+<ul>
+<li><p> This show is brought to you by coin base which is a trusted and easy to use platform to buy, sell and spend Cryptocurrency.</p></li>
+<li><p>Inside Tracker, a service that used to track biological bio data.</p></li>
+<li><p>They have algorithms that analyze your blood data.</p></li>
+<li><p>DNA data and fitness tracker data to provide you with a clear picture of what's going on inside you and to offer you science backed recommendations for positive diet and lifestyle changes.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> Donald Knuth wrote his first large scale program in the summer of 1957.</p></li>
+<li><p>He wrote it in decimal machine language.</p></li>
+<li><p>He didn't know about assembler until a year later, But the year 1957.</p></li>
+<li><p>The tic tac toe program was the second program.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> Well, it started out as about 20, but then I kept hearing me debug it, I discovered debugging of course when I wrote my first program.</p></li>
+<li><p>The first bugs were pretty, you know, on the first night I was able to get the factors of 30, is equal to 23 and five.</p></li>
+<li><p>Rod Brooks was really intimidating.</p></li>
+<li><p>He's like doc and youth is not happy with.</p></li>
+<li><p>But yeah, it's a funny story.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> When reading a program you can tell when the author of the program changed, he says.</p></li>
+<li><p>He says it's a combination of English and programming, but if you just looked at the sea part of it, you would also notice that you use a lot of English language.</p></li>
+<li><p>So you see the idea in the idea code, see the different stylistic thinking, it was stylistic.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> It depends on what on what you're looking for at one level.</p></li>
+<li><p>It's beautiful.</p></li>
+<li><p>Just if it works at all another level.</p></li>
+<li><p>If it's a literate programming is beautiful, it makes you laugh.</p></li>
+<li><p>I mean, yeah, I'm actually, so I'm with you.</p></li>
+<li><p>I think beauty.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> I always thought a little bit of humor is good.</p></li>
+<li><p>It shows character shows wit and fun and all those kinds of things of the personality of the program.</p></li>
+<li><p>I think it's important to know that that this is part of life.</p></li>
+<li><p>Different cultures have different, different kind of humor too.</p></li>
+<li><p>I mean, it's a very delicate humor.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> Every year we're going to be losing more and more control over what machines are doing and people are saying, Well, it seems like when I was a professor at caltech in the 60s, we had this this guy who who talked a good game, he could give inspiring lectures and you'd think, well, what did he say?</p></li>
+<li><p>But he really felt that it didn't matter whether computers got the right answer or not, it's just a matter whether it made you happy or not.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times premature optimization is the root of all evil in programming.</p></li>
+<li><p>An optimized program is just like you know, you you want a program and you set the optimization level.</p></li>
+<li><p>So that's one word for optimization.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> Roger Penrose has talked about computation computers and he proposed that the way the human mind discovers mathematical ideas is something more than a computer that that a universal turing machine cannot do everything that a human mind can do.</p></li>
+<li><p>And so do you think there is such a limit to the computer?</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> I slept overnight in his house several times.</p></li>
+<li><p>I first met him at Oxford in 1967 when I was a teenager.</p></li>
+<li><p>He died a year ago.</p></li>
+<li><p>He was famous for his work on the field of mathematical intelligence.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> Aims to teach students how to invent research and what the joys are of research.</p></li>
+<li><p>In the middle of the night, he thought Conway's theory about numbers would be a great think.</p></li>
+<li><p>In a week he wrote a book about Conway's idea of numbers.</p></li>
+<li><p>The book is now published a surreal number.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> I read was that the manual that she was reading, What was she wrote?</p></li>
+<li><p>She had to take a class in computer science.</p></li>
+<li><p>And uh you're the tutor.</p></li>
+<li><p>No, no.</p></li>
+<li><p>No we yeah, we there were terrible times.</p></li>
+<li><p>But every year we we write a christmas card and and we each have to compromise our own notions of beauty.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> Computer science is largely driven by people who have brains, who are who are good at resonating with certain kind of of concepts and like quantum computers, it takes a kind of brain between computer science and physics.</p></li>
+<li><p>I started as a physics major and I switched in the math to get a plus on the physics exam.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> There's something that got my name attached to it called arrow notation, but it's a notation for very large numbers.</p></li>
+<li><p>It's fairly easy to understand anyway.</p></li>
+<li><p>So X n with no arrows, this multiplication, X arrow and is X to the Nth power.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> Can you describe what the ruth Morris pratt algorithm does and how did you come to develop it?</p></li>
+<li><p>The problem is something that everybody knows now if there if they're using a search engine, uh uh you have a a large collection of text and you want to know if if the word canoe with appears anywhere in the text to say.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> We have a large piece of text and it's all one long one dimensional thing, you know the 1st and 2nd letter etcetera.</p></li>
+<li><p>And the obvious way is to look for Morris with okay so we would we would go through and wait till we get to a letter M. Then we look at the next word and sure enough it's an O.</p></li>
+<li><p>And then they are but then what too bad?</p></li>
+<li><p>Um the next letter is E. And so uh we go back and start looking for another.</p></li>
+<li><p>And so we missed we missed.</p></li>
+<li><p>Morris noticed there was a more clever way to do it.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> A stack of time of time can recognize a language where the strings of the language or length and in any amount of time whatsoever to the stack of Tommy time might use a zillion steps.</p></li>
+<li><p>So I tried it out on on the problem where I knew a stack of tom martin could do it, but I couldn't figure out a fast way to do it on a regular computer.</p></li>
+<li><p>I started to say maybe I should learn more about automata theory, but it never taught me, it never improved my programming for everyday problems.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> Dick Car, one of the leading experts on random algorithms on his random algorithms, explains the process of evolution of random graphs.</p></li>
+<li><p>Dick Car says the most important algorithms are based on random processes based on processes such as evolution of graphs.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> At that point I have one component that has a loop, I have like a loop of length.</p></li>
+<li><p>If the if the complexity is zero, we have 11 loop.</p></li>
+<li><p>If if complexity is one, that means I has one more edge than I have heard it.</p></li>
+<li><p>So, I might have like 11 edges and 10 vortices.</p></li>
+<li><p>So it turns we call that a bicycle because it's got two loops.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> The next day Bill Gates comes to stanford to visit and he says he was impressed with what he said about this giant component.</p></li>
+<li><p>He says the next day he wrote down evolutionary diagrams on a blackboard.</p></li>
+<li><p>The next step is you either have three or one or you have to one or 111.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> I think that people should charge for nontrivial software, but not for trivial software.</p></li>
+<li><p>I think Adobe Photoshop versus gimp on Lenox as Photoshop has value, which so it's definitely worth paying paying for all this stuff.</p></li>
+<li><p>I trust my family jewels only to Lennox.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> Dr Seuss wrote Children's books in the 50s, 40s and 50s.</p></li>
+<li><p>There's a book by dr Seuss called on Beyond zebra and he gave a name to that.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> Dr Seuss did not come to the soviet union but since you oh actually I think it did actually a little bit when we're um that was a book his maybe cat in the hat or or green eggs and ham I think was used to learn english.</p></li>
+<li><p>He has a name for it at the end of his book on Beyond Zebra who made it.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> A. S.A. Y. U.S. A.Y.</p></li>
+<li><p>Y.</p></li>
+<li><p>A. Y., Y.A., S. B.</p></li>
+<li><p>A., A. T. Y, Y. Y and A. J. Y were born.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> There was a unique solution to the Matsu puzzle that was a good test case for my algorithm on how to design a mosque you puzzles because I insisted in advance that the stones had to be placed in exactly the positions that make a letter pi make a word.</p></li>
+<li><p>And most recently I was writing about something called graceful graphs.</p></li>
+</ul>
+</div>
+<hr>
+<div class="mb-4">
+<ul>
+<li><p> The author of a new book about how to be proud of how to have a successful career and a successful life.</p></li>
+<li><p>He says his scheduling principle is to do the thing I hate most on my to do list by weeks and I'm happy.</p></li>
+</ul>
+</div>
+<hr>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
