@@ -1,5 +1,9 @@
-img {
+.card-body img {
 	width: 200px;
+}
+
+img {
+  width: 100%;
 }
 
 .logo {
