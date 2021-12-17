@@ -2,6 +2,37 @@
 	width: 200px;
 }
 
+iframe {
+  border-radius: 25px;
+}
+
+.my-btn {
+  outline-color: #339EFF;
+  border-color:#339EFF;
+  color:#339EFF;
+  border-width: 2px;
+}
+.my-btn:hover {
+  background-color: #A853F2;
+  border-color:#A853F2;
+  border-width: 2px;
+}
+.form-control {
+  border-color:#339EFF;
+  color:#339EFF;
+  border-width: 2px;
+}
+.input-group-text {
+  border-width: 2px;
+  border-color:#339EFF;
+  background-color: #339EFF;
+  color: #FFF;
+}
+
+footer {
+  background-color: #339EFF;
+}
+
 img {
   width: 100%;
 }
