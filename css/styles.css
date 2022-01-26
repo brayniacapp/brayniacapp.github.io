@@ -7,15 +7,16 @@ iframe {
 }
 
 .my-btn {
-  outline-color: #339EFF;
+  background-color: #339EFF;
   border-color:#339EFF;
-  color:#339EFF;
   border-width: 2px;
+  color: #FFF;
 }
 .my-btn:hover {
   background-color: #A853F2;
   border-color:#A853F2;
   border-width: 2px;
+  color: #FFF;
 }
 .form-control {
   border-color:#339EFF;
