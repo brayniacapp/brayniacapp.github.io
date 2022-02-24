@@ -1,0 +1,1711 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style type="text/css">
+      table {
+        font-size: small;
+      }
+      a {
+        color: grey;
+      }
+      a:link {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      p {
+        text-align: justify;
+      }
+      th {white-space: nowrap;}
+      td:nth-child(2)  {white-space: nowrap;}
+
+      /* styling buttons */
+      .show-more-btn {
+        margin-bottom: 15px;
+        cursor: pointer;
+        color: #0095e5;
+        white-space: nowrap;
+        transition: color 300ms ease-in-out;
+        border: 0;
+        font-size: small;
+        background: transparent;
+      }
+      .show-more-btn:hover {
+        color: red;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/gh/tomik23/show-more@1.1.2/dist/js/showMore.min.js"></script>
+
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function () {
+        // text, table, list, elelemnts
+        new ShowMore('.element', {
+          onMoreLess: (type, object) => {
+            // type = less/more and full object
+            console.log(type, object);
+          },
+        });
+      });
+    </script>
+
+    <title>Brayniac</title>
+  </head>
+  <body>
+    <div class="container justify-content-center mt-5">
+      <div class="col-xxl-8 col-xl-10 col-md-12 mx-auto"><div class="row border-bottom mb-4"><h1 class="mb-5">Firehydrant</h1></div>
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Kubernetes</h3></div>
+          <div class="col-9">
+            <p>It was clear from listening to people that Dan touched many lives and had a huge impact on the CNCF and Kubernetes. I found the tributes to Dan very moving.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2021-02-23</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/20210204-incident-retrospective/">February 4th, 2021 Incident Retrospective | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-11-24</th>
+                  <td>25 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/kubecon-north-america-2020-wrapup/">KubeCon North America 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-10-27</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/hashiconf-digital-october-2020/">HashiConf Digital October 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-09-03</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/devopsdays-chicago-2020-wrapup/">DevOpsDays Chicago 2020 Wrapup | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-08-26</th>
+                  <td>21 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/kubecon-2020-europe-wrapup/">KubeCon Europe 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-06-30</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/hashiconf-digital-wrapup-june-2020/">HashiConf Digital Wrap-up, June 2020 | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-05-04</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/deserted-island-devops-wrapup/">Deserted Island DevOps Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-03-26</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/meet-rich-burroughs-senior-developer-advocate/">Meet Rich Burroughs, Senior Developer Advocate | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-10-09</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/a-single-person-on-call-rotation-is-a-critical-vulnerability/">A Single Person On-Call “Rotation” is a Critical Vulnerability | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-08-28</th>
+                  <td>8 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/dynamic-kubernetes-informers/">Dynamic Kubernetes Informers | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-02</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/understanding-istio-ingress/">Understanding Istio Ingress | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>9 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/stay-informed-with-kubernetes-informers/">Stay Informed with Kubernetes Informers | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-04-02</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/announcing-firehydrant-a-tool-to-manage-incidents/">Announcing FireHydrant, a Tool to Manage Incidents | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>HashiCorp</h3></div>
+          <div class="col-9">
+            <p>One of the biggest surprises for me was that HashiCorp not only moved the event online but built a platform to host it. When I heard they had done that, I have to admit that I scratched my head a little.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2020-11-24</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/kubecon-north-america-2020-wrapup/">KubeCon North America 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-10-27</th>
+                  <td>13 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/hashiconf-digital-october-2020/">HashiConf Digital October 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-06-30</th>
+                  <td>18 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/hashiconf-digital-wrapup-june-2020/">HashiConf Digital Wrap-up, June 2020 | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Slack</h3></div>
+          <div class="col-9">
+            <p>’s Slack integration is a great way to speed up your incident response, especially if FireHydrant Runbooks is automatically creating channels in your Slack workspace for each incident. “But what happens after the incident?”</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2022-02-15</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/jira-cloud-and-jira-server-multi-project/">Improved routing for Jira Cloud and Jira Server tickets with multi-project support | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2022-01-26</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/announcing-our-newest-integration-confluence/">Announcing our newest integration: Confluence | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-09-02</th>
+                  <td>11 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/ytd-09-2021-product-updates/">Year-to-Date Product Updates | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-05-27</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/firehydrant-may-2021-product-updates-the-summer-of-integrations/">FireHydrant May 2021 Product Updates: The summer of integrations | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-05-21</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/new-integration-create-google-meet-incident-bridges-automatically/">New Integration: Create Google Meet Incident Bridges Automatically | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-05-21</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/new-integration-declare-firehydrant-incidents-from-checkly-alerts/">New Integration: Declare FireHydrant Incidents from Checkly Alerts  | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-04-23</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/april-2021-product-updates/">FireHydrant April 2021 Product Updates: Incident Tags & Customizable Slack Incident Modals | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-04-15</th>
+                  <td>9 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/creating-custom-slack-commands/">Creating Custom Slack Commands | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-03-31</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/firehydrant-march-2021-product-updates/">FireHydrant March 2021 Product Updates | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-03-09</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/alert-fatigue-and-your-health/">Alert Fatigue and Your Health | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-02-23</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/20210204-incident-retrospective/">February 4th, 2021 Incident Retrospective | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-02-10</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/throw-out-postmortem/">It's Time We Throw Out the Usage of 'Postmortem' | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-01-28</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/2021-january-product-updates/">Product Updates: Integrations with Opsgenie and VictorOps, and more! | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-01-27</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/announcing-incident-types/">New Feature: Incident Types | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-10-13</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/chaos-conf-2020-wrap-up/">About Last Week: A Chaos Conf Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-10-07</th>
+                  <td>12 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/how-to-automatically-archive-incident-slack-channels/">How to: Automatically Archive Incident Slack Channels using conditions in FireHydrant Runbooks | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-10-01</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/firehydrant-runbook-conditions-recipe-email-incident-stakeholders/">How to Create Email Notifications for Incident Stakeholders - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-10-01</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/product-release-firehydrant-runbooks-conditions/">New Release: Incident Automation Just Got Even Better with Conditions in FireHydrant Runbooks | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-09-21</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/build-your-api-first/">Build Your API First | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-09-14</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/2020-september-product-updates/">September Product Updates: Analytics, Damage Report, Archiving, and more! | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-08-04</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/2020-august-product-updates/">August Product Updates: Zoom, Slack, Runbook updates, & more | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-07-28</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/new-integration-zoom/">New Integration: Create Zoom Incident Bridges Automatically | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-07-17</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/2020-july-product-updates/">FireHydrant Product Updates - July 2020 | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-07-06</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/pager-duty-updates/">PagerDuty Integration Updates | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-07-06</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/incident-page-updates/">Incident Page Updates | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-07-02</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/announcing-status-pages/">Announcing Status Pages | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-06-24</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/the-culture-of-the-codebase/">The Culture of the Codebase | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-06-02</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/oncall-and-covid-19-survey-results/">On-Call and COVID-19 Survey Results | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-04-24</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/failover-conf-wrapup/">Failover Conf Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-04-16</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/advice-for-on-call-teams-during-covid-19/">Advice for On-Call Teams During COVID-19 | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-04-07</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/meet-mark-starkman-senior-software-engineer/">Meet Mark Starkman, Senior Software Engineer | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-03-26</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/meet-rich-burroughs-senior-developer-advocate/">Meet Rich Burroughs, Senior Developer Advocate | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-01-15</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/3-ways-to-help-cs-and-engineering-work-better-together/">3 Ways to Help CS and Engineering Work Better Together | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-10-17</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/announcing-runbooks/">Announcing Runbooks | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-07-12</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/2019-july-product-updates/">Product Updates: July 2019 | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-06-28</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/announcing-flare-make-opening-incidents-stress-free/">Announcing Flare: Make Opening Incidents Stress Free | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-28</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/severity-matrix-updates/">Severity Matrix Updates | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-04-23</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/how-firehydrant-creates-data-in-rails/">How FireHydrant Creates Data in Rails | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-04-11</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/new-feature-incident-status-pages/">New Feature: Incident Status Pages | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>SRE</h3></div>
+          <div class="col-9">
+            <p>Site Reliability Engineer (SRE) is one of the fastest growing jobs in tech, with Linkedin reporting 34% growth YoY in 2020 and over 9000 openings in their Emerging Jobs Report . If you’re new to SRE and exploring it as a career path, understand that it can be a challenging but rewarding experience.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2022-02-11</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/operational-readiness-checklist/">It's not ready for production until it has an Operational Readiness Checklist | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-08-16</th>
+                  <td>13 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/getting-started-with-site-reliability-engineering/">Getting Started with Site Reliability Engineering | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-05-07</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/failover-conf-2021-wrap-up/">Failover Conf 2021 Wrap-Up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-11-24</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/kubecon-north-america-2020-wrapup/">KubeCon North America 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-09-03</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/devopsdays-chicago-2020-wrapup/">DevOpsDays Chicago 2020 Wrapup | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-08-26</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/kubecon-2020-europe-wrapup/">KubeCon Europe 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-08-04</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/2020-august-product-updates/">August Product Updates: Zoom, Slack, Runbook updates, & more | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-06-30</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/hashiconf-digital-wrapup-june-2020/">HashiConf Digital Wrap-up, June 2020 | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-05-04</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/deserted-island-devops-wrapup/">Deserted Island DevOps Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-04-24</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/failover-conf-wrapup/">Failover Conf Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-04-16</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/advice-for-on-call-teams-during-covid-19/">Advice for On-Call Teams During COVID-19 | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-04-07</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/meet-mark-starkman-senior-software-engineer/">Meet Mark Starkman, Senior Software Engineer | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-04-06</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/oops-learning-from-surprise-at-netflix/">OOPS! Learning from Surprise at Netflix | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-04-02</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/qa-with-alex-hidalgo-on-slos/">Q&A with Alex Hidalgo on SLOs | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-10-09</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/a-single-person-on-call-rotation-is-a-critical-vulnerability/">A Single Person On-Call “Rotation” is a Critical Vulnerability | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-04-02</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/announcing-firehydrant-a-tool-to-manage-incidents/">Announcing FireHydrant, a Tool to Manage Incidents | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Rails</h3></div>
+          <div class="col-9">
+            <p>Docker Compose is a great tool to develop your Ruby on Rails application locally. It allows you to easily isolate your ruby environment, database, and even Redis if you use something like Sidekiq.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2021-11-11</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/avoid-frostbite-stop-doing-code-freezes/">Avoid frostbite: Stop doing code freezes | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-02-23</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/20210204-incident-retrospective/">February 4th, 2021 Incident Retrospective | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-09-16</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/7-ways-to-get-acquainted-with-a-new-codebase/">7 Ways to Get Acquainted With a New Codebase | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-10-09</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/a-single-person-on-call-rotation-is-a-critical-vulnerability/">A Single Person On-Call “Rotation” is a Critical Vulnerability | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-10-08</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/nfs-with-docker-on-macos-catalina/">NFS with Docker on macOS Catalina | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-09-22</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/open-source-silver-bullet/">Open Source can be a Silver Bullet, but your Application Might be a Werewolf | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-07-29</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/3-defensive-programming-techniques-for-rails/">3 Defensive Programming Techniques for Rails | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-28</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/rails-without-webpacker/">Rails without Webpacker | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-05</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/instrumenting-ruby-on-rails-with-prometheus/">Instrumenting Ruby on Rails with Prometheus | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>10 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/developing-a-ruby-on-rails-app-with-docker-compose/">Set Up a New Ruby on Rails App with Docker Compose - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/flexible-ruby-on-rails-reader-objects/">Flexible Ruby on Rails Reader Objects - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-04-23</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/how-firehydrant-creates-data-in-rails/">How FireHydrant Creates Data in Rails | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>API</h3></div>
+          <div class="col-9">
+            <p>API Documentation You can use the FireHydrant API to configure integrations, define incidents, and set up webhooks. Events Find the FireHydrant team at conferences, webinars, and other events.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2021-06-17</th>
+                  <td>7 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/working-together-but-separately-with-miragejs/">Working Together (but Separately) with MirageJS | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-10-21</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/moving-from-redux-thunk-to-redux-saga-a-walk-through/">Moving from Redux Thunk to Redux-Saga: A walk-through | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-09-25</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/throughput-thursdays-twitch-episode-3/">Fixing Some Code Sins - Episode 3 of Throughput Thursdays | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-09-21</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/build-your-api-first/">Build Your API First | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-09-16</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/graceful-error-handling-with-redux/">Graceful Error Handling with Redux | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/develop-a-go-app-with-docker-compose/">Develop a Go app with Docker Compose | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/flexible-ruby-on-rails-reader-objects/">Flexible Ruby on Rails Reader Objects - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-04-23</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/how-firehydrant-creates-data-in-rails/">How FireHydrant Creates Data in Rails | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Prometheus</h3></div>
+          <div class="col-9">
+            <p>But for some of us, we achieve visibility by using Prometheus and Grafana that we build and host ourselves. Rails provides an easy to use telemetry framework in the form of ActiveSupport Notifications.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2019-06-07</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/monitorama-2019-recap/">Monitorama 2019 Recap | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-05</th>
+                  <td>12 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/instrumenting-ruby-on-rails-with-prometheus/">Instrumenting Ruby on Rails with Prometheus | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Nomad</h3></div>
+          <div class="col-9">
+            <p>Next I caught the Nomad Product Keynote, presented by Mitchell, Armon, and Yishan Lin. Nomad is a tool that I think is very cool, but I haven’t used it much.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2020-10-27</th>
+                  <td>8 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/hashiconf-digital-october-2020/">HashiConf Digital October 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-06-30</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/hashiconf-digital-wrapup-june-2020/">HashiConf Digital Wrap-up, June 2020 | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>CLI</h3></div>
+          <div class="col-9">
+            <p>compose has been merged into the docker CLI, so we're going to be using docker compose instead of the standalone CLI docker-compose in this guide.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2021-03-29</th>
+                  <td>5 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/testing-shell-commands-with-the-crystal-cli/">Testing Shell Commands with the Crystal CLI | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>8 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/develop-a-go-app-with-docker-compose/">Develop a Go app with Docker Compose | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/developing-a-ruby-on-rails-app-with-docker-compose/">Set Up a New Ruby on Rails App with Docker Compose - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Dockerfile</h3></div>
+          <div class="col-9">
+            <p>To create our initial rails project with rails new we need to set up a simple Dockerfile with our basic environment in it. I like creating my projects in my ~/Sites folder: Once in this directory, create a file called Dockerfile with this content: FROM ruby:alpine tells Docker to derive our image off of the latest Ruby image with the Alpine distribution.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2019-05-28</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/rails-without-webpacker/">Rails without Webpacker | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>8 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/developing-a-ruby-on-rails-app-with-docker-compose/">Set Up a New Ruby on Rails App with Docker Compose - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>5 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/develop-a-go-app-with-docker-compose/">Develop a Go app with Docker Compose | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>MTTR</h3></div>
+          <div class="col-9">
+            <p>And then there’s the elusive “mean time to recover,” also known as “MTTR.” MTTR, a hotly debated acronym and concept, measures how long it takes to resolve an incident on average.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2022-02-11</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/operational-readiness-checklist/">It's not ready for production until it has an Operational Readiness Checklist | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-07-15</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/pragmatic-incident-response/">Pragmatic Incident Response: 3 Lessons Learned from Failures | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-06-10</th>
+                  <td>9 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/the-mttr-that-matters/">The MTTR that matters | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-05-17</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/wtf-is-incident-management-post-panel-wrap-up/">WTF is Incident Management? Post-Panel Wrap-Up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-01-15</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/3-ways-to-help-cs-and-engineering-work-better-together/">3 Ways to Help CS and Engineering Work Better Together | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>CI</h3></div>
+          <div class="col-9">
+            <p>You need to invest in having robust CI/CD infrastructure early because it’ll continue to pay compounding dividends for your entire engineering organization for the lifetime of the software. So, I’m going to start off with a bit of a story.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2021-11-11</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/avoid-frostbite-stop-doing-code-freezes/">Avoid frostbite: Stop doing code freezes | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-10-06</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/firehydrant-expands-reliability-platform-with-service-catalog/">FireHydrant Launches Service Catalog | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-08-16</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/getting-started-with-site-reliability-engineering/">Getting Started with Site Reliability Engineering | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-09-14</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/2020-september-product-updates/">September Product Updates: Analytics, Damage Report, Archiving, and more! | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-09-03</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/devopsdays-chicago-2020-wrapup/">DevOpsDays Chicago 2020 Wrapup | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-09-02</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/how-firehydrant-ci-cd-infrastructure-fixes-bugs-faster/">How FireHydrant's CI/CD Infrastructure Fixes Bugs Faster | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-01-31</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/make-the-most-from-firehydrants-service-catalogs-with-these-4-tips/">Make the Most from FireHydrant's Service Catalogs with These 4 Tips | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-07-29</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/3-defensive-programming-techniques-for-rails/">3 Defensive Programming Techniques for Rails | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-28</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/rails-without-webpacker/">Rails without Webpacker | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Air</h3></div>
+          <div class="col-9">
+            <p>Next, we've added a stage that includes the Air project for live reloading. We'll be mounting our Go project's files to /opt/app/api .</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>10 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/develop-a-go-app-with-docker-compose/">Develop a Go app with Docker Compose | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>FireHydrant Runbooks</h3></div>
+          <div class="col-9">
+            <p>Using the power of FireHydrant Runbooks, a Zoom meeting can be added with fully customizable titles and agendas based on your incident details. Let’s dive into how it works</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2021-09-02</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/ytd-09-2021-product-updates/">Year-to-Date Product Updates | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-05-27</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/firehydrant-may-2021-product-updates-the-summer-of-integrations/">FireHydrant May 2021 Product Updates: The summer of integrations | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-05-21</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/new-integration-create-google-meet-incident-bridges-automatically/">New Integration: Create Google Meet Incident Bridges Automatically | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-01-08</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/a-look-back-at-2020/">A Look Back at 2020 | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-10-20</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/2020-october-product-updates/">Product Updates: Conditions in FireHydrant Runbooks, CSV Exports, and much more | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-10-07</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/how-to-automatically-archive-incident-slack-channels/">How to: Automatically Archive Incident Slack Channels using conditions in FireHydrant Runbooks | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-10-01</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/firehydrant-runbook-conditions-recipe-email-incident-stakeholders/">How to Create Email Notifications for Incident Stakeholders - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-10-01</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/product-release-firehydrant-runbooks-conditions/">New Release: Incident Automation Just Got Even Better with Conditions in FireHydrant Runbooks | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-07-28</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/new-integration-zoom/">New Integration: Create Zoom Incident Bridges Automatically | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-07-17</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/2020-july-product-updates/">FireHydrant Product Updates - July 2020 | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-07-02</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/announcing-status-pages/">Announcing Status Pages | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-01-15</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/3-ways-to-help-cs-and-engineering-work-better-together/">3 Ways to Help CS and Engineering Work Better Together | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Heroku</h3></div>
+          <div class="col-9">
+            <p>In this guide we’re going to cover: Setting up a new Rails application in Docker Compose Running tasks like gem installation and migrations Deploying to Heroku’s container platform This tutorial was built using Docker Compose 1.20.1.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2020-05-04</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/deserted-island-devops-wrapup/">Deserted Island DevOps Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>10 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/developing-a-ruby-on-rails-app-with-docker-compose/">Set Up a New Ruby on Rails App with Docker Compose - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>CNCF</h3></div>
+          <div class="col-9">
+            <p>If you weren’t able to participate in real-time, the CNCF will post the talks soon to its YouTube channel . There were many tributes to Dan Kohn throughout the keynotes.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2020-11-24</th>
+                  <td>9 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/kubecon-north-america-2020-wrapup/">KubeCon North America 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-08-26</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/kubecon-2020-europe-wrapup/">KubeCon Europe 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>KubeCon</h3></div>
+          <div class="col-9">
+            <p>KubeCon + CloudNativeCon Europe 2020 Virtual happened online, August 18-20.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2020-11-24</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/kubecon-north-america-2020-wrapup/">KubeCon North America 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-09-03</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/devopsdays-chicago-2020-wrapup/">DevOpsDays Chicago 2020 Wrapup | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-08-26</th>
+                  <td>7 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/kubecon-2020-europe-wrapup/">KubeCon Europe 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Ruby</h3></div>
+          <div class="col-9">
+            <p>Using the power of Ruby, we can actually wrap the method add\_index in migrations to add a check if an index is not concurrent. This is possible with the use of the prepend method for Ruby modules.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2021-03-29</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/testing-shell-commands-with-the-crystal-cli/">Testing Shell Commands with the Crystal CLI | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-06-24</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/the-culture-of-the-codebase/">The Culture of the Codebase | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-09-22</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/open-source-silver-bullet/">Open Source can be a Silver Bullet, but your Application Might be a Werewolf | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-07-29</th>
+                  <td>5 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/3-defensive-programming-techniques-for-rails/">3 Defensive Programming Techniques for Rails | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-05</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/instrumenting-ruby-on-rails-with-prometheus/">Instrumenting Ruby on Rails with Prometheus | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/developing-a-ruby-on-rails-app-with-docker-compose/">Set Up a New Ruby on Rails App with Docker Compose - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/flexible-ruby-on-rails-reader-objects/">Flexible Ruby on Rails Reader Objects - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Vault</h3></div>
+          <div class="col-9">
+            <p>During the rest of the keynote, Mitchell and Armon gave updates on Vault and Consul. Managed Vault on AWS is now available on HashiCorp Cloud Platform in private beta.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2020-10-27</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/hashiconf-digital-october-2020/">HashiConf Digital October 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-06-30</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/hashiconf-digital-wrapup-june-2020/">HashiConf Digital Wrap-up, June 2020 | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Sagas</h3></div>
+          <div class="col-9">
+            <p>At FireHydrant, we recently began to replace our usage of thunks with Sagas to handle our data fetching. Why it's a good idea, directly from the Redux Saga docs: "Contrary to redux thunk, you don’t end up in callback hell, you can test your asynchronous flows easily and your actions stay pure.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2020-10-21</th>
+                  <td>8 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/moving-from-redux-thunk-to-redux-saga-a-walk-through/">Moving from Redux Thunk to Redux-Saga: A walk-through | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Google</h3></div>
+          <div class="col-9">
+            <p>Up next was Jennifer Petoff from Google, talking about how Google trains its SREs ( view the video ). I hadn’t seen Jennifer speak before</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2021-05-21</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/new-integration-create-google-meet-incident-bridges-automatically/">New Integration: Create Google Meet Incident Bridges Automatically | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-04-15</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/creating-custom-slack-commands/">Creating Custom Slack Commands | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-02-10</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/throw-out-postmortem/">It's Time We Throw Out the Usage of 'Postmortem' | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-01-19</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/2021-is-the-year-of-reliability/">2021 is the Year of Reliability | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-11-24</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/kubecon-north-america-2020-wrapup/">KubeCon North America 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-06-30</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/hashiconf-digital-wrapup-june-2020/">HashiConf Digital Wrap-up, June 2020 | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-06-08</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/sticking-to-your-slas-with-firehydrant-runbooks/">Stick to Your SLA with FireHydrant Runbooks - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-04-24</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/failover-conf-wrapup/">Failover Conf Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-06-07</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/monitorama-2019-recap/">Monitorama 2019 Recap | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-02</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/understanding-istio-ingress/">Understanding Istio Ingress | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-04-23</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/how-firehydrant-creates-data-in-rails/">How FireHydrant Creates Data in Rails | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>GitHub</h3></div>
+          <div class="col-9">
+            <p>When integrating software development programs like GitHub or Kubernetes to FireHydrant, we can start to relate code to the various Services in the catalog, too. Tracking changes with something like the FireHydrant change log will help your team identify suspicious deployments faster than digging through logs or recent GitHub pull requests.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2020-11-24</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/kubecon-north-america-2020-wrapup/">KubeCon North America 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-10-27</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/hashiconf-digital-october-2020/">HashiConf Digital October 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-09-02</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/how-firehydrant-ci-cd-infrastructure-fixes-bugs-faster/">How FireHydrant's CI/CD Infrastructure Fixes Bugs Faster | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-05-04</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/deserted-island-devops-wrapup/">Deserted Island DevOps Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-04-06</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/oops-learning-from-surprise-at-netflix/">OOPS! Learning from Surprise at Netflix | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-03-26</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/meet-rich-burroughs-senior-developer-advocate/">Meet Rich Burroughs, Senior Developer Advocate | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-01-31</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/make-the-most-from-firehydrants-service-catalogs-with-these-4-tips/">Make the Most from FireHydrant's Service Catalogs with These 4 Tips | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-09-16</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/announcing-our-aws-cloudtrail-integration/">Announcing our AWS CloudTrail Integration | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-08-28</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/dynamic-kubernetes-informers/">Dynamic Kubernetes Informers | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/flexible-ruby-on-rails-reader-objects/">Flexible Ruby on Rails Reader Objects - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/developing-a-ruby-on-rails-app-with-docker-compose/">Set Up a New Ruby on Rails App with Docker Compose - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/develop-a-go-app-with-docker-compose/">Develop a Go app with Docker Compose | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-04-02</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/announcing-firehydrant-a-tool-to-manage-incidents/">Announcing FireHydrant, a Tool to Manage Incidents | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Zoom</h3></div>
+          <div class="col-9">
+            <p>Incident response doesn’t only happen in Slack, so today we’re happy to announce our integration with Zoom to create incident bridges automatically. Using the power of FireHydrant Runbooks, a Zoom meeting can be added with fully customizable titles and agendas based on your incident details.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2021-09-14</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/a-developers-perspective-lessons-from-open-source/">A Developer's Perspective: Lessons from Open Source with FireHydrant and Backstage | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-01-19</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/2021-is-the-year-of-reliability/">2021 is the Year of Reliability | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-10-01</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/product-release-firehydrant-runbooks-conditions/">New Release: Incident Automation Just Got Even Better with Conditions in FireHydrant Runbooks | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-07-28</th>
+                  <td>5 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/new-integration-zoom/">New Integration: Create Zoom Incident Bridges Automatically | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-05-20</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/techcrunch-firehydrant-lands-usd8m-series-a-for-disaster-management-tool/">Article: FireHydrant lands $8M Series A for disaster management tool | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-05-04</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/deserted-island-devops-wrapup/">Deserted Island DevOps Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-03-26</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/meet-rich-burroughs-senior-developer-advocate/">Meet Rich Burroughs, Senior Developer Advocate | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Docker</h3></div>
+          <div class="col-9">
+            <p>Docker Compose is a great tool to develop your Ruby on Rails application locally. It allows you to easily isolate your ruby environment, database, and even Redis if you use something like Sidekiq.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2019-10-08</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/nfs-with-docker-on-macos-catalina/">NFS with Docker on macOS Catalina | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-28</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/rails-without-webpacker/">Rails without Webpacker | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/developing-a-ruby-on-rails-app-with-docker-compose/">Set Up a New Ruby on Rails App with Docker Compose - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/develop-a-go-app-with-docker-compose/">Develop a Go app with Docker Compose | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>SLA</h3></div>
+          <div class="col-9">
+            <p>As defined by Google , a Service Level Agreement, or an SLA, is a “business-level agreement which defines the service availability for a customer and the penalties for breaking that availability”. SLAs are integral to any service-based industry.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2021-07-15</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/pragmatic-incident-response/">Pragmatic Incident Response: 3 Lessons Learned from Failures | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-04-15</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/creating-custom-slack-commands/">Creating Custom Slack Commands | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-06-08</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/sticking-to-your-slas-with-firehydrant-runbooks/">Stick to Your SLA with FireHydrant Runbooks - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-16</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/slo-sla-sli-oh-my-creating-them-can-be-easy/">SLO, SLA, SLI Oh My! Creating Them Can Be Easy | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>ACNH</h3></div>
+          <div class="col-9">
+            <p>For many people Animal Crossing: New Horizons (which I’ll be referring to as ACNH) has been the perfect video game for the moment. People have felt isolated, anxious, and a host of other emotions, due to the COVID-19 pandemic.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2020-05-04</th>
+                  <td>7 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/deserted-island-devops-wrapup/">Deserted Island DevOps Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Sentinel</h3></div>
+          <div class="col-9">
+            <p>The first talk I caught was Managing Policy as Code With Terraform and Sentinel by Kyle Ruddy . If you’re not familiar with Sentinel , it’s HashiCorp’s framework for managing policies, and</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2020-06-30</th>
+                  <td>7 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/hashiconf-digital-wrapup-june-2020/">HashiConf Digital Wrap-up, June 2020 | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Kelsey</h3></div>
+          <div class="col-9">
+            <p>Someone on Twitter pointed me to the driver docs : The last talk of the day was one of the ones I’d been looking forward to the most, a fireside chat with Kelsey Hightower ( view video here ), hosted by Anubhav Mishra and Nic Jackson . I’ve known Kelsey for a few years, and also consider Mishra and Nic friends, so</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2020-06-30</th>
+                  <td>7 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/hashiconf-digital-wrapup-june-2020/">HashiConf Digital Wrap-up, June 2020 | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Docker Compose</h3></div>
+          <div class="col-9">
+            <p>Docker Compose is a great tool to develop your Ruby on Rails application locally. It allows you to easily isolate your ruby environment, database, and even Redis if you use something like Sidekiq.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>5 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/developing-a-ruby-on-rails-app-with-docker-compose/">Set Up a New Ruby on Rails App with Docker Compose - FireHydrant | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-05-01</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/develop-a-go-app-with-docker-compose/">Develop a Go app with Docker Compose | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Netflix</h3></div>
+          <div class="col-9">
+            <p>Before you dive in and watch Tiger King for the third time on Netflix, why not learn about how Netflix investigates incidents? This first entry in the series is an excellent talk from Lorin Hochstein from Spinnaker Summit 2010 called “OOPS!</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2021-09-30</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/reliability-is-not-an-engineering-metric/">Reliability is not an engineering metric | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-04-24</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/failover-conf-wrapup/">Failover Conf Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-04-16</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/advice-for-on-call-teams-during-covid-19/">Advice for On-Call Teams During COVID-19 | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-04-06</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/oops-learning-from-surprise-at-netflix/">OOPS! Learning from Surprise at Netflix | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>retro</h3></div>
+          <div class="col-9">
+            <p>(and maybe you’re part of the fire department) and they come to help mitigate the issue and resolve it - all the way to the incident retrospective. It’s a pretty broad surface area in terms of timeline.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2022-01-26</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/announcing-our-newest-integration-confluence/">Announcing our newest integration: Confluence | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-09-02</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/ytd-09-2021-product-updates/">Year-to-Date Product Updates | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-06-10</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/the-mttr-that-matters/">The MTTR that matters | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-05-17</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/wtf-is-incident-management-post-panel-wrap-up/">WTF is Incident Management? Post-Panel Wrap-Up | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>DevOps</h3></div>
+          <div class="col-9">
+            <p>DevOpsDays Chicago 2020 was held on September 1, online. It was the first time the conference was held virtually due to the coronavirus pandemic.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2021-05-07</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/failover-conf-2021-wrap-up/">Failover Conf 2021 Wrap-Up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-09-03</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/devopsdays-chicago-2020-wrapup/">DevOpsDays Chicago 2020 Wrapup | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-05-04</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/deserted-island-devops-wrapup/">Deserted Island DevOps Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-04-24</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/failover-conf-wrapup/">Failover Conf Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-04-02</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/qa-with-alex-hidalgo-on-slos/">Q&A with Alex Hidalgo on SLOs | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Crystal</h3></div>
+          <div class="col-9">
+            <p>Previously, we might have distributed workflows among new developers by having them copy/paste or clone scripts down to their machines--but Crystal lets us encapsulate shared tooling in a compiled binary. This way, we have a CLI that developers can install quickly, and that works seamlessly with our other tools.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2021-03-31</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/firehydrant-march-2021-product-updates/">FireHydrant March 2021 Product Updates | FireHydrant</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-03-29</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/testing-shell-commands-with-the-crystal-cli/">Testing Shell Commands with the Crystal CLI | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>TSA</h3></div>
+          <div class="col-9">
+            <p>Just look at the TSA. The TSA was formed swiftly after the September 11th terrorist attacks on November 19th, 2001, a mere 69 days.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2019-11-12</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/avoid-institutionalized-incident-nonsense/">Avoid Institutionalized Incident Nonsense | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>HCP</h3></div>
+          <div class="col-9">
+            <p>Mitchell announced the HashiCorp Cloud Platform (HCP), a new platform for people building cloud infrastructure. He started off talking about how HashiCorp was working to enable cloud workflows and multi-cloud.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2020-06-30</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/hashiconf-digital-wrapup-june-2020/">HashiConf Digital Wrap-up, June 2020 | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Boundary</h3></div>
+          <div class="col-9">
+            <p>It’s called Boundary , and it manages connections to dynamic hosts and services. Mitchell did a great job explaining the problem they were trying to solve.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2020-10-27</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://firehydrant.io/blog/hashiconf-digital-october-2020/">HashiConf Digital October 2020 Wrap-up | FireHydrant</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+        </div><!-- Outer col -->
+    </div><!-- Container -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
+  
