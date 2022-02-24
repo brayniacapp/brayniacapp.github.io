@@ -1,0 +1,882 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style type="text/css">
+      table {
+        font-size: small;
+      }
+      a {
+        color: grey;
+      }
+      a:link {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      p {
+        text-align: justify;
+      }
+      th {white-space: nowrap;}
+      td:nth-child(2)  {white-space: nowrap;}
+
+      /* styling buttons */
+      .show-more-btn {
+        margin-bottom: 15px;
+        cursor: pointer;
+        color: #0095e5;
+        white-space: nowrap;
+        transition: color 300ms ease-in-out;
+        border: 0;
+        font-size: small;
+        background: transparent;
+      }
+      .show-more-btn:hover {
+        color: red;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/gh/tomik23/show-more@1.1.2/dist/js/showMore.min.js"></script>
+
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function () {
+        // text, table, list, elelemnts
+        new ShowMore('.element', {
+          onMoreLess: (type, object) => {
+            // type = less/more and full object
+            console.log(type, object);
+          },
+        });
+      });
+    </script>
+
+    <title>Brayniac</title>
+  </head>
+  <body>
+    <div class="container justify-content-center mt-5">
+      <div class="col-xxl-8 col-xl-10 col-md-12 mx-auto"><div class="row border-bottom mb-4"><h1 class="mb-5">Incident.io</h1></div>
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Slack</h3></div>
+          <div class="col-9">
+            <p>My name’s Colm Doyle ( @colmisainmdom ), and I head up Developer Advocacy at Slack, based in Dublin, Ireland. I’m also part of what we call the major incident commander rotation at Slack.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">January 31, 2022</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/no-capes">No capes: the perils of being a hero-engineer | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">December 21, 2021</th>
+                  <td>8 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/golang-client-mocks">Using context.Context to mock API clients | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">February 15, 2022</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/customer-success-early-stage-b2b-saas">Customer Success at an early-stage B2B SaaS company | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">October 4, 2021</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/incident-io-on-ship-it">incident.io on Ship It! | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">January 25, 2022</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/data-stack">A modern data stack for startups | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">January 15, 2022</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/new-joiner-isaac-seymour">New Joiner: Isaac Seymour | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">February 8, 2022</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/use-your-words-the-importance-of-clear-writing-product-development">Use your words: the importance of clear writing in product development | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">December 1, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/workflows-your-process-automated">Workflows: your process, automated | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">February 3, 2022</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/the-startup-guide-to-sensible-incident-management">The startup guide to sensible incident management | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">September 15, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/the-things-we-find-hardest-in-incident-response">The things we find hardest in incident response | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">October 26, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/five-steps-to-better-customer-comms">Five steps to better customer communication | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">September 30, 2021</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/weve-raised-from-index-point-nine-and-angels">We’ve raised $4.7 million from Index Ventures, Point Nine, and a host of incredible angels | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">October 6, 2021</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/how-to-react-when-things-go-wrong">How to react when things go wrong | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">November 22, 2021</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/safe-by-default">Building safe-by-default tools in our Go web application | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">July 13, 2021</th>
+                  <td>22 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/interview-with-colm-doyle-slack">Industry Interviews: Colm Doyle, Incident Commander at Slack | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">September 24, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/how-to-avoid-bad-assumptions-during-incidents">How to avoid bad assumptions during incidents | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">June 23, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/incidents-are-for-everyone">Incidents are for everyone | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">January 20, 2021</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/hello-world">Hello, world 👋 | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Fivetran</h3></div>
+          <div class="col-9">
+            <p>Fivetran and Stitch are both ETL tools designed to transport data from various sources into destinations. We use both to load data into BigQuery, our data warehouse.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">January 25, 2022</th>
+                  <td>14 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/data-stack">A modern data stack for startups | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Docker</h3></div>
+          <div class="col-9">
+            <p>As background, incident.io is deployed as two logical components: We deploy to Heroku using their Docker buildpack , after our CircleCI pipeline builds a single Docker image that looks something like this : We first noticed our pipeline had become slow</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">November 18, 2021</th>
+                  <td>13 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/container-builder">Deploying to production in <5m with our hosted container builder | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>LaunchDarkly</h3></div>
+          <div class="col-9">
+            <p>That's why we opted to use LaunchDarkly , a feature management platform-as-a-service. Now, I've had plenty of experience integrating third-party libraries into apps, and fighting with poor documentation and strange library behaviour.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">November 9, 2021</th>
+                  <td>9 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/feature-flagging-launch-darkly">Now you see me, now you don't: feature-flagging with LaunchDarkly at incident.io | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Monzo</h3></div>
+          <div class="col-9">
+            <p>My name's Tom - I previously founded Monzo and GoCardless, and I'm an angel investor based in London. I'm proud to have backed the incident.io team.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">November 4, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/new-joiner-sophie">New Joiner: Sophie Koonin | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">October 26, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/five-steps-to-better-customer-comms">Five steps to better customer communication | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">February 8, 2022</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/use-your-words-the-importance-of-clear-writing-product-development">Use your words: the importance of clear writing in product development | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">September 30, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/weve-raised-from-index-point-nine-and-angels">We’ve raised $4.7 million from Index Ventures, Point Nine, and a host of incredible angels | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">October 6, 2021</th>
+                  <td>8 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/how-to-react-when-things-go-wrong">How to react when things go wrong | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">June 23, 2021</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/incidents-are-for-everyone">Incidents are for everyone | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Stitch</h3></div>
+          <div class="col-9">
+            <p>Fivetran and Stitch are both ETL tools designed to transport data from various sources into destinations. We use both to load data into BigQuery, our data warehouse.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">January 25, 2022</th>
+                  <td>8 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/data-stack">A modern data stack for startups | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Postgres</h3></div>
+          <div class="col-9">
+            <p>What followed was an interesting little trip into the inner workings of Postgres. As a company focussed on the positive side of incidents we’re big fans of sharing learnings when things go wrong, so we thought we'd revisit that day and write up what happened to bring you along down the rabbit hole on the journey!</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">January 25, 2022</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/data-stack">A modern data stack for startups | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">July 12, 2021</th>
+                  <td>7 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/one-two-skip-a-few">One, Two, Skip a Few... | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Metabase</h3></div>
+          <div class="col-9">
+            <p>Finally, Metabase provides a visualisation and analytics layer, running queries against BigQuery. That's it, the entire data stack.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">January 25, 2022</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/data-stack">A modern data stack for startups | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Stripe</h3></div>
+          <div class="col-9">
+            <p>While I’ve worked with many different teams over the years, Stripe was one of the largest I supported as a manager. I was there before Render, where my team was responsible for managing some of the core infrastructure, specifically Compute.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">January 25, 2022</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/data-stack">A modern data stack for startups | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">September 1, 2021</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/interview-with-uma-chingunde-render">Industry Interviews: Uma Chingunde, Vice President of Engineering at Render | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Zoom</h3></div>
+          <div class="col-9">
+            <p>We had to fall back to Zoom, our bot tooling wasn’t available and I lost a lot of the conveniences that I had grown to rely on. Meanwhile, everything was going 100 miles an hour.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">July 13, 2021</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/interview-with-colm-doyle-slack">Industry Interviews: Colm Doyle, Incident Commander at Slack | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">February 4, 2022</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/our-engineering-interview-process">Our engineering interview process | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">January 20, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/hello-world">Hello, world 👋 | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>PagerDuty</h3></div>
+          <div class="col-9">
+            <p>My overriding memory of getting paged is because I have PagerDuty on so many of my devices. Because of how they're configured, it’s legitimately terrifying when I get paged — everything is going off at once!</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">October 6, 2021</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/how-to-react-when-things-go-wrong">How to react when things go wrong | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">December 1, 2021</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/workflows-your-process-automated">Workflows: your process, automated | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">July 13, 2021</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/interview-with-colm-doyle-slack">Industry Interviews: Colm Doyle, Incident Commander at Slack | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>GoCardless</h3></div>
+          <div class="col-9">
+            <p>My name's Tom - I previously founded Monzo and GoCardless, and I'm an angel investor based in London. I'm proud to have backed the incident.io team.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">September 9, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/new-joiner-lawrence">New Joiner: Lawrence Jones | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">November 18, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/container-builder">Deploying to production in <5m with our hosted container builder | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">November 16, 2021</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/incidents-made-me-a-better-engineer">5 ways incidents made me a better engineer | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">January 15, 2022</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/new-joiner-isaac-seymour">New Joiner: Isaac Seymour | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">August 23, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/new-joiner-lisa-karlin-curtis">New Joiner: Lisa Karlin Curtis | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">October 6, 2021</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/how-to-react-when-things-go-wrong">How to react when things go wrong | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">June 23, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/incidents-are-for-everyone">Incidents are for everyone | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Google</h3></div>
+          <div class="col-9">
+            <p>We open a ticket with Google asking them if they can opt us out, but assume they’ll say no and change our app to properly handle the header downcasing (as it should anyway, per the HTTP standard). That’s not the end of it, though.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">October 4, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/incident-io-on-ship-it">incident.io on Ship It! | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">November 11, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/tracing">Logs and tracing: not just for production, local development too | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">September 24, 2021</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/how-to-avoid-bad-assumptions-during-incidents">How to avoid bad assumptions during incidents | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>HTTP</h3></div>
+          <div class="col-9">
+            <p>They say their code is failing because it can no longer find the HTTP headers they expected. The headers are there, but things like Content-Type are now downcased to content-type , and their codepath doesn’t handle it.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">December 21, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/golang-client-mocks">Using context.Context to mock API clients | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">September 24, 2021</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/how-to-avoid-bad-assumptions-during-incidents">How to avoid bad assumptions during incidents | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>ETL</h3></div>
+          <div class="col-9">
+            <p>Fivetran and Stitch are both ETL tools designed to transport data from various sources into destinations. We use both to load data into BigQuery, our data warehouse.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">January 25, 2022</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/data-stack">A modern data stack for startups | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>dbt</h3></div>
+          <div class="col-9">
+            <p>Once in BigQuery, we clean and transform the data using a tool called dbt . This allows us to turn raw source data into an ideal, 'data warehouse native', format that can be easily used for analysis.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">January 25, 2022</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/data-stack">A modern data stack for startups | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>StackDriver</h3></div>
+          <div class="col-9">
+            <p>Cloud Trace supports this, if you ship logs into StackDriver. As we already have a logging platform we weren't buzzed about adding another, but were willing to consider it if meant better integration between logs and traces.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">November 11, 2021</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/tracing">Logs and tracing: not just for production, local development too | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>BigQuery</h3></div>
+          <div class="col-9">
+            <p>With data warehouse solutions ( BigQuery , Snowflake , Redshift ) going mainstream, modern data stacks are becoming increasingly boring - great news if you're starting from scratch! In general, you'll want to: Finding complementary tools is difficult, and we spoke to data engineers from several companies to find what was working for them (and what wasn't).</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">January 25, 2022</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/data-stack">A modern data stack for startups | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>SQL</h3></div>
+          <div class="col-9">
+            <p>We picked Metabase as the most intuitive of the options, with visualisations that can be built without any SQL knowledge. Whether a tool is intuitive is subjective, but Metabase certainly feels that way to me.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">January 25, 2022</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/data-stack">A modern data stack for startups | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Vanta</h3></div>
+          <div class="col-9">
+            <p>Instead of periodic checks on our systems, we're actively monitoring our entire environment on an ongoing basis using Vanta . Vanta connects in a read-only mode to all of our systems, including our cloud environment, GitHub repositories and MDM solution, and continuously monitors our controls to ensure they're working as expected.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">December 20, 2021</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/weve-successfully-completed-our-soc2-audit">We've successfully completed our SOC 2 audit | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Dockerfile</h3></div>
+          <div class="col-9">
+            <p>In brief, when Docker builds images it does so in layers — you begin with the layer described from your FROM directive, and produce a new layer for each subsequent directive in the Dockerfile. Let's use an example: This Dockerfile has just three directives, a FROM , ADD and a RUN .</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">November 18, 2021</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/container-builder">Deploying to production in <5m with our hosted container builder | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>HAProxy</h3></div>
+          <div class="col-9">
+            <p>After some digging, we realised an upgrade to HAProxy had been deployed around the time we’d started seeing issues internally. Looking at the changelog, we realised this HAProxy version bump included the following:</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">September 24, 2021</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/how-to-avoid-bad-assumptions-during-incidents">How to avoid bad assumptions during incidents | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Heroku</h3></div>
+          <div class="col-9">
+            <p>As background, incident.io is deployed as two logical components: We deploy to Heroku using their Docker buildpack , after our CircleCI pipeline builds a single Docker image that looks something like this : We first noticed our pipeline had become slow</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">October 26, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/five-steps-to-better-customer-comms">Five steps to better customer communication | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">November 18, 2021</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/container-builder">Deploying to production in <5m with our hosted container builder | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">October 4, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/incident-io-on-ship-it">incident.io on Ship It! | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>GitHub</h3></div>
+          <div class="col-9">
+            <p>It should glue together the tools that exist in each discipline — from GitHub to OneTrust — and help them work better together, instead of siloing information. All processes run through the same system, giving you a single view over the issues your organisation faces, and the ways you can improve.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">December 20, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/weve-successfully-completed-our-soc2-audit">We've successfully completed our SOC 2 audit | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">November 11, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/tracing">Logs and tracing: not just for production, local development too | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">October 26, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/five-steps-to-better-customer-comms">Five steps to better customer communication | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">June 23, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/incidents-are-for-everyone">Incidents are for everyone | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>SEV-1</h3></div>
+          <div class="col-9">
+            <p>" If you've ever seen SEV-1, P1, and so on — this is a severity level. Severity levels are used for communicating impact to your coworkers, customers, and stakeholders Well-designed severity levels create shared expectations between people responding to the incident.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">February 17, 2022</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/designing-your-incident-severity-levels">Designing your incident severity levels | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">July 13, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/interview-with-colm-doyle-slack">Industry Interviews: Colm Doyle, Incident Commander at Slack | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>SSH</h3></div>
+          <div class="col-9">
+            <p>Docker doesn't come with any authentication solution, but the client does support connecting to a daemon over SSH. Provisioning our machine with a builder user, we created a keypair and uploaded the private key into CircleCI.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">November 18, 2021</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/container-builder">Deploying to production in <5m with our hosted container builder | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">October 4, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/incident-io-on-ship-it">incident.io on Ship It! | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Grafana</h3></div>
+          <div class="col-9">
+            <p>While I have experience running Jaeger and a preference for the Grafana toolchain (with Tempo being their tracing solution), we want to keep a small surface area of developer tools, avoid running infrastructure where we can, and lean into our preference for Google Cloud Platform. This made Google Cloud Trace an obvious choice, and one that was easy to configure from our Go app:</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">November 11, 2021</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/tracing">Logs and tracing: not just for production, local development too | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">October 4, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/incident-io-on-ship-it">incident.io on Ship It! | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>ID</h3></div>
+          <div class="col-9">
+            <p>We're big fans of simple battle-tested technology and in this case we leaned on Postgres, specifically Postgres sequences , to control the numeric portion of the ID for us. We create a new incident sequence per-organisation, initialised to 1 when the organisation is created, and for every incident, it increases automatically.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">November 9, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/feature-flagging-launch-darkly">Now you see me, now you don't: feature-flagging with LaunchDarkly at incident.io | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">January 25, 2022</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/data-stack">A modern data stack for startups | incident.io | incident.io</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">July 12, 2021</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/one-two-skip-a-few">One, Two, Skip a Few... | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>CS</h3></div>
+          <div class="col-9">
+            <p>Though we will eventually hire a Product Manager, the fact that Customer Success (CS) and Engineering work hand-in-hand on product without a middle(wo)man has been incredibly powerful. The role of CS is: to make sure we collect as much feedback as possible; to document that feedback; to groom and broadcast it via ProductBoard/Linear and the internal #product Slack channel.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">February 15, 2022</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/customer-success-early-stage-b2b-saas">Customer Success at an early-stage B2B SaaS company | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>CRM</h3></div>
+          <div class="col-9">
+            <p>Other data sources like your CRM will be powered by API access to that tool. For those connectors, Fivetran will paginate through API resources using a cursor that is set each run, taking those responses and pushing them into the destination.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">January 25, 2022</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/data-stack">A modern data stack for startups | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Stg Product Timeline Items</h3></div>
+          <div class="col-9">
+            <p>One example is visible in the previous screen recording, where joining Stg Product Timeline Items with Stg Product Organisations prefilled the join key (Organisation ID). Metabase can only default this if it knows Organisation ID on Stg Product Timeline Items is a foreign key of Stg Product Organisations, and which field it references.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">January 25, 2022</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://incident.io/blog/data-stack">A modern data stack for startups | incident.io | incident.io</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+        </div><!-- Outer col -->
+    </div><!-- Container -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
+  
