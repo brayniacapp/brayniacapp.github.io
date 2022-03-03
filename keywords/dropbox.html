@@ -1,0 +1,796 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style type="text/css">
+      table {
+        font-size: small;
+      }
+      a {
+        color: grey;
+      }
+      a:link {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      p {
+        text-align: justify;
+      }
+      th {white-space: nowrap;}
+      td:nth-child(2)  {white-space: nowrap;}
+
+      /* styling buttons */
+      .show-more-btn {
+        margin-bottom: 15px;
+        cursor: pointer;
+        color: #0095e5;
+        white-space: nowrap;
+        transition: color 300ms ease-in-out;
+        border: 0;
+        font-size: small;
+        background: transparent;
+      }
+      .show-more-btn:hover {
+        color: red;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/gh/tomik23/show-more@1.1.2/dist/js/showMore.min.js"></script>
+
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function () {
+        // text, table, list, elelemnts
+        new ShowMore('.element', {
+          onMoreLess: (type, object) => {
+            // type = less/more and full object
+            console.log(type, object);
+          },
+        });
+      });
+    </script>
+
+    <title>Brayniac</title>
+  </head>
+  <body>
+    <div class="container justify-content-center mt-5">
+      <div class="col-xxl-8 col-xl-10 col-md-12 mx-auto">
+        <div class="row border-bottom mb-4 pb-4">
+          <h1 class="mb-5">Dropbox</h1>
+          <p>
+            Brayniac read 65 webpages. This content is about 45 pages long.
+          </p>
+          <p>
+            Brayniac generated a list of keywords on the left and corresponding blurbs on the right. The keywords are ranked by importance. The most important keyword appears at the top. As you scroll down, the keyword importance decreases.
+          </p>
+          <p>
+            The blurb include an actual usage of the keyword from the webpages. It also provides a breakdown of which posts and how many times the keyword appeared in those posts.
+          </p>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Pearce</h3></div>
+          <div class="col-9">
+            <p>By Drew Pearce By Drew Pearce By Drew Pearce By Andrew Richdale By Drew Pearce</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2017-11-07</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/gdpr-data-security-approach">The GDPR: An opportunity to rethink your approach to data security | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-06-03</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/truth-about-cloud-security">The truth about cloud security | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-05-28</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/evaluating-file-sync-and-share-security">Evaluating file sync and share solutions: 12 questions to ask about security | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-12-06</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/new-ways-to-secure-data-while-your-team-creates-on-dropbox-paper">New ways to secure data while your team creates on Dropbox Paper | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-02-11</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/dropbox-customer-data-safety">An inside look at how we keep customer data safe | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2018-04-19</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/itdms-workplace-trends">ITDMs weigh in on workplace trends | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-06-30</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/dropbox-for-business-security-whitepaper">How does Dropbox for Business protect your data? [Whitepaper] | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-02-12</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/security-deep-dive-webinar">Webinar: Dropbox for Business security deep dive | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-08-17</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/keeping-data-secure">Hear it from our customers: How Dropbox Business keeps data secure | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-12-13</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/protect-company-data-with-network-control">New network control capabilities help admins protect company data | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-06-08</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/secure-file-sharing">The keys to securing data in a collaborative workplace | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-09-10</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/two-step-verification">Make your password stronger with two-step verification | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2018-03-20</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/gdpr-accountability-principle">The GDPR's accountability principle: A shift in mindset | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2017-03-14</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/security-tips-protect-data">Security, simplified: 7 easy ways to protect company data | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-06-12</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/using-two-step-verification">Tip of the week: How to add an extra layer of security to your account | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2017-09-26</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/advanced-security-for-it">Collaboration in higher education: Advanced security for IT teams | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-07-20</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/integrated-cloud-security-webinar">Webinar: Integrated cloud security | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-05-21</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/security-and-collaboration-cloud-file-sharing">Droptalk: Why security and collaboration are not mutually exclusive | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-03-13</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/what-to-do-after-losing-device">Tip of the week: What to do if you lose your laptop or smartphone | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-04-14</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/securing-collaboration-webinar">Webinar: Prioritizing security in a "bring your own" world | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-10-01</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/have-you-enabled-two-step-verification">Have you enabled two-step verification? | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-02-09</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/safer-internet-day-2016">6 tips to help you to stay safe on the internet | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-10-23</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/how-to-unlink-a-device-from-your-dropbox">How to unlink a device from your Dropbox | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">1900-01-01</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/4-tips-to-protect-business-data">4 tips to keep your business data private | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2018-05-31</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/oktane18-secure-collaboration">Insight from Oktane18: Integrations crucial to secure collaboration | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2017-10-12</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/education-integrations">Collaboration in higher education: Seamless integrations | Dropbox Blog</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>GDPR</h3></div>
+          <div class="col-9">
+            <p>When it comes to the General Data Protection Regulation (GDPR) and its implications for data security, there is a lot to consider. Significant emphasis has been placed on the penalties for non-compliance and the new rules companies must follow in the event of a data breach.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2017-11-07</th>
+                  <td>12 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/gdpr-data-security-approach">The GDPR: An opportunity to rethink your approach to data security | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2018-03-20</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/gdpr-accountability-principle">The GDPR's accountability principle: A shift in mindset | Dropbox Blog</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>David Vallance</h3></div>
+          <div class="col-9">
+            <p>By Drew Pearce By Devon Murphy By David Vallance By Sally Zhang</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2017-03-14</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/security-tips-protect-data">Security, simplified: 7 easy ways to protect company data | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-06-12</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/using-two-step-verification">Tip of the week: How to add an extra layer of security to your account | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2017-09-26</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/advanced-security-for-it">Collaboration in higher education: Advanced security for IT teams | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-07-20</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/integrated-cloud-security-webinar">Webinar: Integrated cloud security | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-05-21</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/security-and-collaboration-cloud-file-sharing">Droptalk: Why security and collaboration are not mutually exclusive | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-03-13</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/what-to-do-after-losing-device">Tip of the week: What to do if you lose your laptop or smartphone | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-04-14</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/securing-collaboration-webinar">Webinar: Prioritizing security in a "bring your own" world | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-10-01</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/have-you-enabled-two-step-verification">Have you enabled two-step verification? | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-02-09</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/safer-internet-day-2016">6 tips to help you to stay safe on the internet | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-10-23</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/how-to-unlink-a-device-from-your-dropbox">How to unlink a device from your Dropbox | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">1900-01-01</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/4-tips-to-protect-business-data">4 tips to keep your business data private | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2018-05-31</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/oktane18-secure-collaboration">Insight from Oktane18: Integrations crucial to secure collaboration | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2017-10-12</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/education-integrations">Collaboration in higher education: Seamless integrations | Dropbox Blog</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Andrew Richdale</h3></div>
+          <div class="col-9">
+            <p>By Drew Pearce By Drew Pearce By Drew Pearce By Andrew Richdale By Drew Pearce</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2017-11-07</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/gdpr-data-security-approach">The GDPR: An opportunity to rethink your approach to data security | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-06-03</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/truth-about-cloud-security">The truth about cloud security | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-05-28</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/evaluating-file-sync-and-share-security">Evaluating file sync and share solutions: 12 questions to ask about security | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-12-06</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/new-ways-to-secure-data-while-your-team-creates-on-dropbox-paper">New ways to secure data while your team creates on Dropbox Paper | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-02-11</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/dropbox-customer-data-safety">An inside look at how we keep customer data safe | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2018-04-19</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/itdms-workplace-trends">ITDMs weigh in on workplace trends | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-06-30</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/dropbox-for-business-security-whitepaper">How does Dropbox for Business protect your data? [Whitepaper] | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-02-12</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/security-deep-dive-webinar">Webinar: Dropbox for Business security deep dive | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-08-17</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/keeping-data-secure">Hear it from our customers: How Dropbox Business keeps data secure | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-12-13</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/protect-company-data-with-network-control">New network control capabilities help admins protect company data | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-06-08</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/secure-file-sharing">The keys to securing data in a collaborative workplace | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-09-10</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/two-step-verification">Make your password stronger with two-step verification | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2018-03-20</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/gdpr-accountability-principle">The GDPR's accountability principle: A shift in mindset | Dropbox Blog</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Devon Murphy</h3></div>
+          <div class="col-9">
+            <p>By Drew Pearce By Devon Murphy By David Vallance By Sally Zhang</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2017-03-14</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/security-tips-protect-data">Security, simplified: 7 easy ways to protect company data | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-06-12</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/using-two-step-verification">Tip of the week: How to add an extra layer of security to your account | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2017-09-26</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/advanced-security-for-it">Collaboration in higher education: Advanced security for IT teams | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-07-20</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/integrated-cloud-security-webinar">Webinar: Integrated cloud security | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-05-21</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/security-and-collaboration-cloud-file-sharing">Droptalk: Why security and collaboration are not mutually exclusive | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-03-13</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/what-to-do-after-losing-device">Tip of the week: What to do if you lose your laptop or smartphone | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-04-14</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/securing-collaboration-webinar">Webinar: Prioritizing security in a "bring your own" world | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-10-01</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/have-you-enabled-two-step-verification">Have you enabled two-step verification? | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-02-09</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/safer-internet-day-2016">6 tips to help you to stay safe on the internet | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-10-23</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/how-to-unlink-a-device-from-your-dropbox">How to unlink a device from your Dropbox | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">1900-01-01</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/4-tips-to-protect-business-data">4 tips to keep your business data private | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2017-10-12</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/education-integrations">Collaboration in higher education: Seamless integrations | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2018-05-31</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/oktane18-secure-collaboration">Insight from Oktane18: Integrations crucial to secure collaboration | Dropbox Blog</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>HelloSign</h3></div>
+          <div class="col-9">
+            <p>This week, HelloSign released new advanced features and compliance certifications to meet the needs of enterprise companies. These product features will help businesses save time, reduce inefficiencies, and enable multiple teams within an organization to use eSignatures, without sacrificing security.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2020-02-21</th>
+                  <td>8 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product/hellosign-now-enterprise-ready-with-new-admin-and-security-featu">HelloSign now enterprise-ready with new admin and security features | Dropbox Blog</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>SSO</h3></div>
+          <div class="col-9">
+            <p>single sign-on, or SSO. SSO works behind the scenes to let users sign in just once to a central identity provider, like Active Directory, and securely access all their business apps, like Dropbox.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2013-04-10</th>
+                  <td>6 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/coming-soon-to-a-dropbox-for-business-near-you-single-sign-on-sso">Coming soon to a Dropbox for Business near you: Single sign-on (SSO) | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-02-11</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/dropbox-customer-data-safety">An inside look at how we keep customer data safe | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-05-28</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/evaluating-file-sync-and-share-security">Evaluating file sync and share solutions: 12 questions to ask about security | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-09-10</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/two-step-verification">Make your password stronger with two-step verification | Dropbox Blog</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>today</h3></div>
+          <div class="col-9">
+            <p>Some of these features are available today through our early access program , and others will be coming soon to a Dropbox for Business near you. We’re bringing additional security and control to the heart of where work gets done in Dropbox for Business — shared folders and shared links.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2014-07-22</th>
+                  <td>4 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/new-collaboration-sharing-features">Coming soon to Dropbox for Business: New control and collaboration features | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2018-11-08</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/business/dropbox-strengthens-security-ecosystem-with-google-cloud-identit">Dropbox strengthens security ecosystem with Google Cloud Identity and expanded partnerships | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-11-16</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product/dropbox-enhances-corporate-data-protection-with-new-security-con">Dropbox Enhances Corporate Data Protection with New Security Controls | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-09-25</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product/dropbox-business-it-solutions">Making life easier for IT: The new Dropbox Business | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2017-08-10</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/mobile-prompts-2-step-verification">Introducing mobile prompts for two-step verification | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-12-06</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/new-ways-to-secure-data-while-your-team-creates-on-dropbox-paper">New ways to secure data while your team creates on Dropbox Paper | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-02-12</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/security-deep-dive-webinar">Webinar: Dropbox for Business security deep dive | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-07-30</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/dropbox-csa-star-assessment">Dropbox & CSA STAR: Furthering our commitment to security and transparency | Dropbox Blog</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>CSA</h3></div>
+          <div class="col-9">
+            <p>2014 A few months ago, Dropbox joined the Cloud Security Alliance (CSA), a non-profit organization that promotes and provides education around cloud security best practices. Working with the CSA is an important part of our commitment to security and transparency, and today we’re happy to announce that the Dropbox for Business security self-assessment is now available on the CSA’s Security, Trust & Assurance Registry (STAR).</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2014-07-30</th>
+                  <td>5 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/dropbox-csa-star-assessment">Dropbox & CSA STAR: Furthering our commitment to security and transparency | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-04-23</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/dropbox-joins-cloud-security-alliance">Dropbox joins the Cloud Security Alliance | Dropbox Blog</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+          <div class="row border-bottom mb-4">
+          <div class="col-3"><h3>Today</h3></div>
+          <div class="col-9">
+            <p>Today marks the anniversary of the Snowden revelations — the day all of us learned just how far governments were willing to take their online surveillance.</p>
+            <table class="element table table-sm table-borderless text-muted mb-0" data-config='{ "type": "table", "limit": 1, "more": "↓ show more", "less": "↑ less", "number": true }'>
+              <tbody>
+                <tr>
+                  <th scope="row">2014-06-05</th>
+                  <td>3 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/weve-got-your-back">We've got your back | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2019-09-25</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product/dropbox-business-it-solutions">Making life easier for IT: The new Dropbox Business | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-11-16</th>
+                  <td>2 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/adminx-paper-infrastructure-enhancements">Introducing enhancements to AdminX, Paper, and our infrastructure | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-08-12</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product/u2f-security-keys">Introducing U2F support for secure authentication | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2018-11-08</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/business/dropbox-strengthens-security-ecosystem-with-google-cloud-identit">Dropbox strengthens security ecosystem with Google Cloud Identity and expanded partnerships | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2018-05-03</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/adminx-deployment">New AdminX tools for management, security, and deployment | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2012-08-27</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product/another-layer-of-security-for-your-dropbox-account">Another layer of security for your Dropbox account | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2020-11-17</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/new-features-for-distributed-teams">New Dropbox features keep your distributed team organized and secure | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2018-04-19</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/product-tips/itdms-workplace-trends">ITDMs weigh in on workplace trends | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-04-23</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/dropbox-joins-cloud-security-alliance">Dropbox joins the Cloud Security Alliance | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2016-02-09</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/work-culture/safer-internet-day-2016">6 tips to help you to stay safe on the internet | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2015-06-16</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/introducing-enterprise-mobile-management">Introducing Enterprise Mobility Management (EMM) to keep you safe and productive on the go | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">1900-01-01</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/dropbox-for-business-updates">Building the best place to get work done | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2011-07-01</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/changes-to-our-policies">Changes to our policies (updated) | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">1900-01-01</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/dropbox-iso27001">Dropbox for Business compliance milestones: New ISO 27001 certification & updated SOC 1, 2, 3 reports | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2021-12-10</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/our-commitment-to-environmental--social--and-governance-standard">Our commitment to Environmental, Social, and Governance standards  | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-07-22</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/new-collaboration-sharing-features">Coming soon to Dropbox for Business: New control and collaboration features | Dropbox Blog</a></td>
+                </tr>
+    
+                <tr>
+                  <th scope="row">2014-02-11</th>
+                  <td>1 mentions</td>
+                  <td><a class="result-link" href="https://blog.dropbox.com/topics/company/our-commitment-to-transparency">Our commitment to transparency | Dropbox Blog</a></td>
+                </tr>
+    
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+        </div><!-- Outer col -->
+    </div><!-- Container -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
+  
