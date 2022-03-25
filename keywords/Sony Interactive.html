@@ -1,0 +1,793 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style type="text/css">
+      ul {
+        list-style-type: none;
+        font-size: 14px;
+        margin-bottom: 4px;
+      }
+      li {
+        margin-bottom: 6px;
+      }
+      a {
+        color: grey;
+      }
+      a:link {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      p {
+        text-align: justify;
+        font-size: 14px;
+      }
+      th {white-space: nowrap;}
+      td:nth-child(2)  {white-space: nowrap;}
+
+      /* styling buttons */
+      .show-more-btn {
+        /*margin-bottom: 5px;*/
+        cursor: pointer;
+        color: #0095e5;
+        white-space: nowrap;
+        transition: color 300ms ease-in-out;
+        border: 0;
+        font-size: small;
+        background: transparent;
+        padding-left: 0;
+      }
+      .show-more-btn:hover {
+        text-decoration: underline;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/gh/tomik23/show-more@1.1.2/dist/js/showMore.min.js"></script>
+
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function () {
+        // text, table, list, elelemnts
+        new ShowMore('.element', {
+          onMoreLess: (type, object) => {
+            // type = less/more and full object
+            console.log(type, object);
+          },
+        });
+      });
+    </script>
+
+    <title>Brayniac</title>
+  </head>
+  <body>
+    <div class="container justify-content-center mt-5">
+      <div class="col-xxl-6 col-xl-7 col-md-8 col-sm-12 mx-auto">
+        <div class="row border-bottom mb-4 pb-4">
+          <h1 class="mb-4">Sony Interactive</h1>
+          <p>
+            Brayniac read 56 webpages. This content is about 57 pages long.
+          </p>
+          <p>
+            Brayniac generated a list of keywords on the left and corresponding blurbs on the right. The keywords are ranked by importance. The most important keyword appears at the top. As you scroll down, the keyword importance decreases.
+          </p>
+          <p>
+            The blurb include an actual usage of the keyword from the webpages. It also provides a breakdown of which posts and how many times the keyword appeared in those posts.
+          </p>
+          <p>
+            Keyword importance is determined by analyzing usage of the keyword in the text including frequency and semantics. 
+          </p>
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>GMG</h4>
+          <p>Mar 18, 2021 -- 
+ When I think about Girls Make Games (GMG) and my journey since co-founding the organization, I am sometimes at a loss for words. It is so meaningful to me to be part of something that inspires young women to pursue careers in game development through game jams, summer camps, and workshops.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/celebrating-the-next-generation-of-female-game-developers-during-womens-history-month/">Celebrating the next generation of female game developers during Women’s History Month – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/girls-make-games-2020-recap/">Girls Make Games 2020 Recap – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>SIE</h4>
+          <p>Mar 8, 2022 -- Aligned with International Women’s Day, which is celebrated globally on March 8, we want to use this day as an opportunity to reflect on the journey we at Sony Interactive Entertainment (SIE) are driving to achieve inclusion, belonging and equity for all, especially women and other underrepresented groups in the gaming industry.
+  Our aim is to hold ourselves accountable,</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/womens-history-month-2022-creating-opportunities-for-all/">Women’s History Month 2022: Creating Opportunities for All – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-community-supports-reforestation-projects-by-building-aloys-forests-around-the-world/">PlayStation Community supports reforestation projects by building Aloy’s Forests around the world – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sie-leadership-spotlight-stephanie-burns/">“I wanted to be a part of a company where I can make an impact” – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/gran-turismo-sophy/">Gran Turismo Sophy: Training AI to be a Champion-Level Racer – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/safer-internet-day-2022-our-continued-commitment-to-keep-gaming-joyful/">Safer Internet Day 2022: Our Continued Commitment to Keep Gaming Joyful – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/bungie-to-join-the-playstation-family/">Bungie to Join the PlayStation Family – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstations-new-accessibility-destination/">PlayStation’s New Accessibility Destination – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-partners-with-family-video-game-database/">PlayStation Partners With Family Video Game Database – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/a-new-milestone-sie-sells-10-million-playstation-5-consoles-globally/">A New Milestone: SIE Sells 10 Million PlayStation 5 Consoles Globally – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/gaming-creating-worlds-of-authentic-storytelling/">Gaming & Creating Worlds of Authentic Storytelling – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/celebrate-with-pride-everyday/">Celebrate with Pride Every Day – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/continuous-enhancements-to-ensure-a-positive-experience-for-all-players/">Continuous Enhancements to Ensure a Positive Experience for All Players – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/welcoming-the-black-collegiate-gaming-association-as-new-strategic-partner-to-support-the-next-generation-of-gaming-industry-leaders/">Welcoming the Black Collegiate Gaming Association as New Strategic Partner to Support the Next Generation of Gaming Industry Leaders – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/accessibility-consulting-opening-new-doors-for-all-gamers/">Accessibility Consulting: Opening New Doors for All Gamers – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/creating-a-world-with-no-limitations/">Creating a World with No Limitations – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/inside-sony-interactive-entertainment-blackplaystation/">Inside Sony Interactive Entertainment: Black@PlayStation – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/our-improved-playstation-5-packaging/">Our Improved PlayStation 5 Packaging – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-joins-disabilityins-coalition-of-ceos-to-advance-disability-inclusion/">Sony Interactive Entertainment Joins Disability:IN’s Coalition of CEOs to Advance Disability Inclusion – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/from-the-sounds-we-choose-to-the-way-that-we-work-sie-continues-to-push-the-boundaries-of-music-in-games/">From the Sounds we Choose to the way that we Work, SIE Continues to Push the Boundaries of Music in Games – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-continues-to-fight-anti-asian-discrimination-and-provides-resources-for-allyship/">Sony Interactive Entertainment continues to fight Anti-Asian Discrimination and provides Resources for Allyship – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-strategic-partnerships-to-support-black-communities/">Sony Interactive Entertainment Announces Strategic Partnerships to Support Black Communities – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/announcing-jackie-robinson-foundation-mlb-the-show-scholars-supported-by-playstation-career-pathways/">Announcing Jackie Robinson Foundation MLB The Show Scholars Supported by PlayStation Career Pathways Program – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/united-nations-playing-for-the-planet-alliance-annual-impact-report-2020/">United Nations ‘Playing for the Planet’ Alliance Annual Impact Report 2020 – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/empowering-all-abilities-of-gamers/">Empowering All Abilities of Gamers – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/new-york-videogame-critics-circle-and-sie/">New York Videogame Critics Circle and SIE – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/a-look-back-on-mlb-the-show-players-league/">A Look Back on MLB The Show Players League – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/introducing-sie-blog/">Introducing SIE.Blog – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>PS5</h4>
+          <p>Feb 8, 2022 -- We want to make it easy for players to report unwanted interactions on PS4 or PS5 who act innapropriately and violate the PlayStation Code of Conduct .
+  Our Voice Chat reporting function enables players to access their most recent five minutes of voice chat and then submit a 20-second clip to our moderation team for review.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/safer-internet-day-2022-our-continued-commitment-to-keep-gaming-joyful/">Safer Internet Day 2022: Our Continued Commitment to Keep Gaming Joyful – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/bungie-joining-playstation-the-playstation-studios-perspective/">Bungie Joining PlayStation: The PlayStation Studios Perspective – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/five-tips-on-how-to-take-control-of-your-gaming-experience/">Five Tips on how to Take Control of your Gaming Experience – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-5-and-its-energy-efficiency/">PlayStation 5 and its Energy Efficiency – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/a-new-milestone-sie-sells-10-million-playstation-5-consoles-globally/">A New Milestone: SIE Sells 10 Million PlayStation 5 Consoles Globally – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/continuous-enhancements-to-ensure-a-positive-experience-for-all-players/">Continuous Enhancements to Ensure a Positive Experience for All Players – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/creating-a-world-with-no-limitations/">Creating a World with No Limitations – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/our-improved-playstation-5-packaging/">Our Improved PlayStation 5 Packaging – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/united-nations-playing-for-the-planet-alliance-annual-impact-report-2020/">United Nations ‘Playing for the Planet’ Alliance Annual Impact Report 2020 – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/be-a-superstar-super-hero-in-marvels-spider-man-miles-morales/">Be a Superstar Super-Hero in Marvel’s Spider-Man: Miles Morales – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/empowering-all-abilities-of-gamers/">Empowering All Abilities of Gamers – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstations-one-year-update-on-playing-for-the-planet/">PlayStation’s One Year Update on “Playing for the Planet” – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-global-brand-spot-takes-gamers-beyond-the-edge-to-explore-new-worlds/">PlayStation Global Brand Spot takes Gamers Beyond “The Edge” to Explore New Worlds – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Gran Turismo Sophy</h4>
+          <p>Feb 9, 2022 -- Gran Turismo Sophy, a collaboration between Polyphony Digital, Sony AI, and Sony Interactive Entertainment, takes machine learning to the next level by introducing an AI agent to a hyper-realistic racing simulation that requires rapid decisions within the complex dynamics of a race against opponents.
+
+  Sony AI COO Michael Spranger describes Gran Turismo Sophy as “an AI agent that learned to drive by itself at a very competitive level and is able to compete with the best GT Sport drivers in the world.”</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/gran-turismo-sophy/">Gran Turismo Sophy: Training AI to be a Champion-Level Racer – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Bungie</h4>
+          <p>Jan 31, 2022 -- 
+ We are thrilled to announce that Sony Interactive Entertainment has entered into an agreement to acquire Bungie , which will bring one of the world’s greatest development studios into the PlayStation family. Bungie has created two of gaming’s most iconic franchises, Halo and Destiny , and has deep expertise in bringing incredible immersive experiences at great scale to the community through games that evolve and develop over time, and has a hugely impressive roadmap for future content.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/bungie-to-join-the-playstation-family/">Bungie to Join the PlayStation Family – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/bungie-joining-playstation-the-playstation-studios-perspective/">Bungie Joining PlayStation: The PlayStation Studios Perspective – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Hackford</h4>
+          <p>Mar 26, 2021 -- We’re fortunate to have numerous talented music professionals  in the SIE family including Manager of Music for PlayStation Studio’s Creative Services, Duncan Smith and Senior A&R Manager, Alex Hackford.
+  “Music is a powerful tool to enhance the experience of a game and to draw players in emotionally, to connect the player with the characters and story, and to help immerse the player in that world,” says Smith.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/from-the-sounds-we-choose-to-the-way-that-we-work-sie-continues-to-push-the-boundaries-of-music-in-games/">From the Sounds we Choose to the way that we Work, SIE Continues to Push the Boundaries of Music in Games – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Evo</h4>
+          <p>Mar 18, 2021 -- In the decades since, countless legendary battles in that storied tournament — now known as the Evolution Championship Series (Evo) — have been waged in the virtual arenas of timeless games, many on PlayStation consoles.
+  Today, we’re thrilled to announce the next chapter in the story of PlayStation and Evo, the world’s largest and longest-running fighting game tournament.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/welcoming-evo-into-the-playstation-family/">Welcoming Evo into the PlayStation Family – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>PlayStation</h4>
+          <p>Mar 8, 2022 -- Our mission at Sony Interactive Entertainment is ‘to be the Best Place to Play’ – for our PlayStation community, our partners, as well as our employees. We aim to create a culture of inclusion and belonging in which everyone, regardless of their background or gender, feels valued and people care for them – across all of our platforms, through our experiences, and in our workplaces.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/womens-history-month-2022-creating-opportunities-for-all/">Women’s History Month 2022: Creating Opportunities for All – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-community-supports-reforestation-projects-by-building-aloys-forests-around-the-world/">PlayStation Community supports reforestation projects by building Aloy’s Forests around the world – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sie-leadership-spotlight-stephanie-burns/">“I wanted to be a part of a company where I can make an impact” – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/safer-internet-day-2022-our-continued-commitment-to-keep-gaming-joyful/">Safer Internet Day 2022: Our Continued Commitment to Keep Gaming Joyful – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/writing-for-video-games-part-1/">Writing for Video Games – Part 1: Balancing Story with Gameplay – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/bungie-to-join-the-playstation-family/">Bungie to Join the PlayStation Family – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/bungie-joining-playstation-the-playstation-studios-perspective/">Bungie Joining PlayStation: The PlayStation Studios Perspective – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstations-new-accessibility-destination/">PlayStation’s New Accessibility Destination – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-partners-with-family-video-game-database/">PlayStation Partners With Family Video Game Database – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/five-tips-on-how-to-take-control-of-your-gaming-experience/">Five Tips on how to Take Control of your Gaming Experience – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-x-uefa-champions-league-play-has-no-limits/">PlayStation x UEFA Champions League – Play Has No Limits – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-5-and-its-energy-efficiency/">PlayStation 5 and its Energy Efficiency – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/play-at-home-recap-60-million-games-redeemed/">Play At Home Recap: 60 Million Games Redeemed – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/the-city-where-play-has-no-limits/">The City Where Play Has No Limits – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-harnessing-the-power-of-emotion/">PlayStation: Harnessing the Power of Emotion – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/a-new-milestone-sie-sells-10-million-playstation-5-consoles-globally/">A New Milestone: SIE Sells 10 Million PlayStation 5 Consoles Globally – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/celebrate-with-pride-everyday/">Celebrate with Pride Every Day – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/continuous-enhancements-to-ensure-a-positive-experience-for-all-players/">Continuous Enhancements to Ensure a Positive Experience for All Players – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/creating-a-world-with-no-limitations/">Creating a World with No Limitations – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/announcing-playstations-new-partnership-with-discord/">Announcing PlayStation’s new Partnership with Discord – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/inside-sony-interactive-entertainment-blackplaystation/">Inside Sony Interactive Entertainment: Black@PlayStation – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/our-improved-playstation-5-packaging/">Our Improved PlayStation 5 Packaging – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/from-the-sounds-we-choose-to-the-way-that-we-work-sie-continues-to-push-the-boundaries-of-music-in-games/">From the Sounds we Choose to the way that we Work, SIE Continues to Push the Boundaries of Music in Games – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/how-to-pitch-your-game-to-playstation/">How to Pitch your Game to PlayStation – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/welcoming-evo-into-the-playstation-family/">Welcoming Evo into the PlayStation Family – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/celebrating-the-next-generation-of-female-game-developers-during-womens-history-month/">Celebrating the next generation of female game developers during Women’s History Month – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/introducing-haven-a-new-montreal-based-independent-studio/">Introducing Haven, a new Montreal-based independent studio – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-strategic-partnerships-to-support-black-communities/">Sony Interactive Entertainment Announces Strategic Partnerships to Support Black Communities – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/united-nations-playing-for-the-planet-alliance-annual-impact-report-2020/">United Nations ‘Playing for the Planet’ Alliance Annual Impact Report 2020 – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/shared-online-safety-principles/">Our Shared Commitment to Safer Gaming – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/inside-the-abilities-expo-virtual-experience-with-gaming-accessibility-consultant-and-ambassador-paul-amadeus-lane/">Inside the Abilities Expo Virtual Experience with Gaming Accessibility Consultant and Ambassador Paul Amadeus Lane – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/be-a-superstar-super-hero-in-marvels-spider-man-miles-morales/">Be a Superstar Super-Hero in Marvel’s Spider-Man: Miles Morales – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/new-zealand-beach-clean-up-in-dreams/">New Zealand Beach Clean-up in Dreams – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-releases-global-launch-ad-for-ps5/">PlayStation Releases Global Launch Ad for PS5 – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/girls-make-games-2020-recap/">Girls Make Games 2020 Recap – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/online-gaming-safety-tips-for-families/">Online Gaming Safety Tips for Families – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/introducing-sie-blog/">Introducing SIE.Blog – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-global-brand-spot-takes-gamers-beyond-the-edge-to-explore-new-worlds/">PlayStation Global Brand Spot takes Gamers Beyond “The Edge” to Explore New Worlds – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>PlayStation Studios</h4>
+          <p>Feb 10, 2022 -- The content that PlayStation Studios, along with our partners, do for the gaming industry, is best in class.” “I’m also on the board of a global non-profit organization, ChIPs , whose mission is  to advance women in technology, law and policy, and there is an alignment with my passion to accelerate innovation through diversity of thought that runs parallel with SIE’s commitment to DE&I. SIE’s desire to welcome unique talent who want to help shape the future of gaming and entertainment</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/sie-leadership-spotlight-stephanie-burns/">“I wanted to be a part of a company where I can make an impact” – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/bungie-to-join-the-playstation-family/">Bungie to Join the PlayStation Family – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/bungie-joining-playstation-the-playstation-studios-perspective/">Bungie Joining PlayStation: The PlayStation Studios Perspective – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstations-new-accessibility-destination/">PlayStation’s New Accessibility Destination – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-studios-in-the-cloud/">PlayStation Studios in the Cloud – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/a-new-milestone-sie-sells-10-million-playstation-5-consoles-globally/">A New Milestone: SIE Sells 10 Million PlayStation 5 Consoles Globally – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/accessibility-consulting-opening-new-doors-for-all-gamers/">Accessibility Consulting: Opening New Doors for All Gamers – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/creating-a-world-with-no-limitations/">Creating a World with No Limitations – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Smith</h4>
+          <p>Mar 26, 2021 -- We’re fortunate to have numerous talented music professionals  in the SIE family including Manager of Music for PlayStation Studio’s Creative Services, Duncan Smith and Senior A&R Manager, Alex Hackford.
+  “Music is a powerful tool to enhance the experience of a game and to draw players in emotionally, to connect the player with the characters and story, and to help immerse the player in that world,” says Smith.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/from-the-sounds-we-choose-to-the-way-that-we-work-sie-continues-to-push-the-boundaries-of-music-in-games/">From the Sounds we Choose to the way that we Work, SIE Continues to Push the Boundaries of Music in Games – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Sony Interactive Entertainment</h4>
+          <p>Mar 8, 2022 -- Our mission at Sony Interactive Entertainment is ‘to be the Best Place to Play’ – for our PlayStation community, our partners, as well as our employees. We aim to create a culture of inclusion and belonging in which everyone, regardless of their background or gender, feels valued and people care for them – across all of our platforms, through our experiences, and in our workplaces.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/womens-history-month-2022-creating-opportunities-for-all/">Women’s History Month 2022: Creating Opportunities for All – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-community-supports-reforestation-projects-by-building-aloys-forests-around-the-world/">PlayStation Community supports reforestation projects by building Aloy’s Forests around the world – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sie-leadership-spotlight-stephanie-burns/">“I wanted to be a part of a company where I can make an impact” – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/gran-turismo-sophy/">Gran Turismo Sophy: Training AI to be a Champion-Level Racer – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/safer-internet-day-2022-our-continued-commitment-to-keep-gaming-joyful/">Safer Internet Day 2022: Our Continued Commitment to Keep Gaming Joyful – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/bungie-to-join-the-playstation-family/">Bungie to Join the PlayStation Family – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/bungie-joining-playstation-the-playstation-studios-perspective/">Bungie Joining PlayStation: The PlayStation Studios Perspective – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstations-new-accessibility-destination/">PlayStation’s New Accessibility Destination – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-partners-with-family-video-game-database/">PlayStation Partners With Family Video Game Database – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/five-tips-on-how-to-take-control-of-your-gaming-experience/">Five Tips on how to Take Control of your Gaming Experience – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-5-and-its-energy-efficiency/">PlayStation 5 and its Energy Efficiency – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/a-new-milestone-sie-sells-10-million-playstation-5-consoles-globally/">A New Milestone: SIE Sells 10 Million PlayStation 5 Consoles Globally – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/gaming-creating-worlds-of-authentic-storytelling/">Gaming & Creating Worlds of Authentic Storytelling – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/celebrate-with-pride-everyday/">Celebrate with Pride Every Day – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/continuous-enhancements-to-ensure-a-positive-experience-for-all-players/">Continuous Enhancements to Ensure a Positive Experience for All Players – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/welcoming-the-black-collegiate-gaming-association-as-new-strategic-partner-to-support-the-next-generation-of-gaming-industry-leaders/">Welcoming the Black Collegiate Gaming Association as New Strategic Partner to Support the Next Generation of Gaming Industry Leaders – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/creating-a-world-with-no-limitations/">Creating a World with No Limitations – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/announcing-playstations-new-partnership-with-discord/">Announcing PlayStation’s new Partnership with Discord – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/inside-sony-interactive-entertainment-blackplaystation/">Inside Sony Interactive Entertainment: Black@PlayStation – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/our-improved-playstation-5-packaging/">Our Improved PlayStation 5 Packaging – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-joins-disabilityins-coalition-of-ceos-to-advance-disability-inclusion/">Sony Interactive Entertainment Joins Disability:IN’s Coalition of CEOs to Advance Disability Inclusion – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/from-the-sounds-we-choose-to-the-way-that-we-work-sie-continues-to-push-the-boundaries-of-music-in-games/">From the Sounds we Choose to the way that we Work, SIE Continues to Push the Boundaries of Music in Games – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/how-to-pitch-your-game-to-playstation/">How to Pitch your Game to PlayStation – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-continues-to-fight-anti-asian-discrimination-and-provides-resources-for-allyship/">Sony Interactive Entertainment continues to fight Anti-Asian Discrimination and provides Resources for Allyship – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/welcoming-evo-into-the-playstation-family/">Welcoming Evo into the PlayStation Family – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/celebrating-the-next-generation-of-female-game-developers-during-womens-history-month/">Celebrating the next generation of female game developers during Women’s History Month – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-strategic-partnerships-to-support-black-communities/">Sony Interactive Entertainment Announces Strategic Partnerships to Support Black Communities – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/announcing-jackie-robinson-foundation-mlb-the-show-scholars-supported-by-playstation-career-pathways/">Announcing Jackie Robinson Foundation MLB The Show Scholars Supported by PlayStation Career Pathways Program – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/united-nations-playing-for-the-planet-alliance-annual-impact-report-2020/">United Nations ‘Playing for the Planet’ Alliance Annual Impact Report 2020 – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/naughty-dog-blazes-the-trail-for-accessible-storytelling/">Naughty Dog Blazes the Trail for Accessible Storytelling – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/a-look-back-on-mlb-the-show-players-league/">A Look Back on MLB The Show Players League – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/online-gaming-safety-tips-for-families/">Online Gaming Safety Tips for Families – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/introducing-sie-blog/">Introducing SIE.Blog – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Sony</h4>
+          <p>Jan 31, 2022 -- 
+ We are thrilled to announce that Sony Interactive Entertainment has entered into an agreement to acquire Bungie , which will bring one of the world’s greatest development studios into the PlayStation family. Bungie has created two of gaming’s most iconic franchises, Halo and Destiny , and has deep expertise in bringing incredible immersive experiences at great scale to the community through games that evolve and develop over time, and has a hugely impressive roadmap for future content.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/bungie-to-join-the-playstation-family/">Bungie to Join the PlayStation Family – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-5-and-its-energy-efficiency/">PlayStation 5 and its Energy Efficiency – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/celebrate-with-pride-everyday/">Celebrate with Pride Every Day – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/creating-a-world-with-no-limitations/">Creating a World with No Limitations – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/inside-sony-interactive-entertainment-blackplaystation/">Inside Sony Interactive Entertainment: Black@PlayStation – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/our-improved-playstation-5-packaging/">Our Improved PlayStation 5 Packaging – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-joins-disabilityins-coalition-of-ceos-to-advance-disability-inclusion/">Sony Interactive Entertainment Joins Disability:IN’s Coalition of CEOs to Advance Disability Inclusion – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/from-the-sounds-we-choose-to-the-way-that-we-work-sie-continues-to-push-the-boundaries-of-music-in-games/">From the Sounds we Choose to the way that we Work, SIE Continues to Push the Boundaries of Music in Games – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/introducing-haven-a-new-montreal-based-independent-studio/">Introducing Haven, a new Montreal-based independent studio – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/new-york-videogame-critics-circle-and-sie/">New York Videogame Critics Circle and SIE – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Ratchet & Clank</h4>
+          <p>Feb 3, 2022 -- From the classic adventures in Naughty Dog’s Jak and Daxter series, Insomniac Games’ Ratchet & Clank series, and Sucker Punch’s inFAMOUS all the way to recent hits like Ghost of Tsushima , The Last of Us Part 2 , and Marvel’s Spider-Man:</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/writing-for-video-games-part-1/">Writing for Video Games – Part 1: Balancing Story with Gameplay – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/five-tips-on-how-to-take-control-of-your-gaming-experience/">Five Tips on how to Take Control of your Gaming Experience – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/play-at-home-recap-60-million-games-redeemed/">Play At Home Recap: 60 Million Games Redeemed – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-harnessing-the-power-of-emotion/">PlayStation: Harnessing the Power of Emotion – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/inside-the-accessibility-features-of-ratchet-clank-rift-apart/">Inside the Accessibility Features of Ratchet & Clank: Rift Apart – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>BCGA</h4>
+          <p>Jun 2, 2021 -- Today, I’d like to announce our new partnership with Black Collegiate Gaming Association (BCGA), which includes a new scholarship program designed to help ensure success for the next generation of gaming industry leaders. The BCGA success scholarship supported by the PlayStation Career Pathways Program is an investment in the education of college students and their future.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/welcoming-the-black-collegiate-gaming-association-as-new-strategic-partner-to-support-the-next-generation-of-gaming-industry-leaders/">Welcoming the Black Collegiate Gaming Association as New Strategic Partner to Support the Next Generation of Gaming Industry Leaders – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>the Jackie Robinson Foundation</h4>
+          <p>Feb 9, 2021 -- The first initiative is the Jackie Robinson Foundation MLB The Show Scholars created in partnership with the Jackie Robinson Foundation (JRF).</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/announcing-jackie-robinson-foundation-mlb-the-show-scholars-supported-by-playstation-career-pathways/">Announcing Jackie Robinson Foundation MLB The Show Scholars Supported by PlayStation Career Pathways Program – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>The Last of Us Part II</h4>
+          <p>Oct 27, 2020 -- Their teams have worked over the years to better understand the needs of all gamers, including those with disabilities, which culminated in their biggest accomplishment with The Last of Us Part II – the first AAA game that can be played start-to-finish by a visually impaired gamer.
+  Trailblazing efforts for accessible gaming
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/naughty-dog-blazes-the-trail-for-accessible-storytelling/">Naughty Dog Blazes the Trail for Accessible Storytelling – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>PSN</h4>
+          <p>Feb 8, 2022 -- We have automated solutions in place that are supplemented by trained global moderation teams, which support players in all languages where PlayStation Network (PSN) services are available. We want to make it easy for players to report unwanted interactions on PS4 or PS5 who act innapropriately and violate the PlayStation Code of Conduct .
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/safer-internet-day-2022-our-continued-commitment-to-keep-gaming-joyful/">Safer Internet Day 2022: Our Continued Commitment to Keep Gaming Joyful – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/five-tips-on-how-to-take-control-of-your-gaming-experience/">Five Tips on how to Take Control of your Gaming Experience – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/continuous-enhancements-to-ensure-a-positive-experience-for-all-players/">Continuous Enhancements to Ensure a Positive Experience for All Players – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Horizon Forbidden West</h4>
+          <p>Feb 16, 2022 -- 
+ In Horizon Forbidden West, Aloy’s quest to restore order and balance to her world is a reminder about the importance of preserving nature and biodiversity on planet Earth in the years and decades to come. An inspiration to drive change.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-community-supports-reforestation-projects-by-building-aloys-forests-around-the-world/">PlayStation Community supports reforestation projects by building Aloy’s Forests around the world – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-harnessing-the-power-of-emotion/">PlayStation: Harnessing the Power of Emotion – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/a-new-milestone-sie-sells-10-million-playstation-5-consoles-globally/">A New Milestone: SIE Sells 10 Million PlayStation 5 Consoles Globally – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/from-the-sounds-we-choose-to-the-way-that-we-work-sie-continues-to-push-the-boundaries-of-music-in-games/">From the Sounds we Choose to the way that we Work, SIE Continues to Push the Boundaries of Music in Games – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Rift Apart</h4>
+          <p>Nov 17, 2021 -- Rift Apart (PS5) – An interdimensional adventure and timeless story of friendship. A perfect game for families and players ages 10+.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/five-tips-on-how-to-take-control-of-your-gaming-experience/">Five Tips on how to Take Control of your Gaming Experience – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-harnessing-the-power-of-emotion/">PlayStation: Harnessing the Power of Emotion – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/inside-the-accessibility-features-of-ratchet-clank-rift-apart/">Inside the Accessibility Features of Ratchet & Clank: Rift Apart – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Stephanie Burns</h4>
+          <p>Feb 10, 2022 -- SVP, General Counsel Stephanie Burns, who brings an incredible wealth of experience and knowledge, is one such leader.
+  Many may not understand how departments work together to deliver high-calibre experiences across PlayStation.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/sie-leadership-spotlight-stephanie-burns/">“I wanted to be a part of a company where I can make an impact” – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Jim Ryan</h4>
+          <p>Jan 31, 2022 -- To hear from Jim Ryan, President and CEO of Sony Interactive Entertainment about this news, check out his thoughts here .
+</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/bungie-joining-playstation-the-playstation-studios-perspective/">Bungie Joining PlayStation: The PlayStation Studios Perspective – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/play-at-home-recap-60-million-games-redeemed/">Play At Home Recap: 60 Million Games Redeemed – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-joins-disabilityins-coalition-of-ceos-to-advance-disability-inclusion/">Sony Interactive Entertainment Joins Disability:IN’s Coalition of CEOs to Advance Disability Inclusion – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>PlayStation 5</h4>
+          <p>Nov 17, 2021 -- If you’re a PlayStation 5 user, you have access to four preset profiles in your privacy settings. You can choose one from the below options that work best for you:
+ Social & Open : This means you’re open to all requests and messages.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/five-tips-on-how-to-take-control-of-your-gaming-experience/">Five Tips on how to Take Control of your Gaming Experience – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-5-and-its-energy-efficiency/">PlayStation 5 and its Energy Efficiency – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/a-new-milestone-sie-sells-10-million-playstation-5-consoles-globally/">A New Milestone: SIE Sells 10 Million PlayStation 5 Consoles Globally – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/celebrate-with-pride-everyday/">Celebrate with Pride Every Day – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/creating-a-world-with-no-limitations/">Creating a World with No Limitations – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/our-improved-playstation-5-packaging/">Our Improved PlayStation 5 Packaging – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/empowering-all-abilities-of-gamers/">Empowering All Abilities of Gamers – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-releases-global-launch-ad-for-ps5/">PlayStation Releases Global Launch Ad for PS5 – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>MLB</h4>
+          <p>Feb 9, 2021 -- The first initiative is the Jackie Robinson Foundation MLB The Show Scholars created in partnership with the Jackie Robinson Foundation (JRF).</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/announcing-jackie-robinson-foundation-mlb-the-show-scholars-supported-by-playstation-career-pathways/">Announcing Jackie Robinson Foundation MLB The Show Scholars Supported by PlayStation Career Pathways Program – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/a-look-back-on-mlb-the-show-players-league/">A Look Back on MLB The Show Players League – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>UNEP</h4>
+          <p>Feb 16, 2022 -- That’s why the UN Environment Programme (UNEP) and UN-REDD have launched ‘The Play4Forests’ (P4F) campaign, an initiative for the gaming community which aims to raise awareness about the importance of forests for our health and climate. It is aimed to stir world leaders to take decisive action on forest protection and restoration.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-community-supports-reforestation-projects-by-building-aloys-forests-around-the-world/">PlayStation Community supports reforestation projects by building Aloy’s Forests around the world – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/united-nations-playing-for-the-planet-alliance-annual-impact-report-2020/">United Nations ‘Playing for the Planet’ Alliance Annual Impact Report 2020 – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstations-one-year-update-on-playing-for-the-planet/">PlayStation’s One Year Update on “Playing for the Planet” – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Sony AI</h4>
+          <p>Feb 9, 2022 -- Gran Turismo Sophy, a collaboration between Polyphony Digital, Sony AI, and Sony Interactive Entertainment, takes machine learning to the next level by introducing an AI agent to a hyper-realistic racing simulation that requires rapid decisions within the complex dynamics of a race against opponents.
+
+  Sony AI COO Michael Spranger describes Gran Turismo Sophy as “an AI agent that learned to drive by itself at a very competitive level and is able to compete with the best GT Sport drivers in the world.”</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/gran-turismo-sophy/">Gran Turismo Sophy: Training AI to be a Champion-Level Racer – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Zhang</h4>
+          <p>Feb 3, 2022 -- In the opinion of Isaac Zhang, Producer of F.I.S.T.: Forged in Shadow Torch , “you will face obstacles in game writing, especially for the construction of the game world, because players are always expecting a unique fantasy and surreal world. However,  there are some games based on real-life as well.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/writing-for-video-games-part-1/">Writing for Video Games – Part 1: Balancing Story with Gameplay – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Katie</h4>
+          <p>Mar 18, 2021 -- To celebrate the next generation of female game developers and introduce Find Me as a great example of the impact camp at GMG can have, I caught up with two of the creators, Katie A. and Avalon B., to get their thoughts on their experience as we get closer to launch – and as we continue to celebrate the achievement of incredible women and girls.
+  Play  Video
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/celebrating-the-next-generation-of-female-game-developers-during-womens-history-month/">Celebrating the next generation of female game developers during Women’s History Month – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>adidas</h4>
+          <p>Nov 10, 2020 -- Enter our friends from adidas.
+  Insomniac, PlayStation, and Marvel Games worked in close collaboration with adidas to create new sneakers for Miles to wear in game.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/be-a-superstar-super-hero-in-marvels-spider-man-miles-morales/">Be a Superstar Super-Hero in Marvel’s Spider-Man: Miles Morales – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>PlayStation Network</h4>
+          <p>Feb 8, 2022 -- We have automated solutions in place that are supplemented by trained global moderation teams, which support players in all languages where PlayStation Network (PSN) services are available. We want to make it easy for players to report unwanted interactions on PS4 or PS5 who act innapropriately and violate the PlayStation Code of Conduct .
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/safer-internet-day-2022-our-continued-commitment-to-keep-gaming-joyful/">Safer Internet Day 2022: Our Continued Commitment to Keep Gaming Joyful – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/five-tips-on-how-to-take-control-of-your-gaming-experience/">Five Tips on how to Take Control of your Gaming Experience – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/continuous-enhancements-to-ensure-a-positive-experience-for-all-players/">Continuous Enhancements to Ensure a Positive Experience for All Players – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/announcing-playstations-new-partnership-with-discord/">Announcing PlayStation’s new Partnership with Discord – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/online-gaming-safety-tips-for-families/">Online Gaming Safety Tips for Families – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Black Girls CODE</h4>
+          <p>Mar 8, 2022 -- Organizations such as Girls Make Games , Black Girls CODE , Innovate Her , and Girls Who Code drive impactful programs for the next generation of talent by providing girls and women access to STEAM projects in order to pursue a career path in the tech and gaming industries.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/womens-history-month-2022-creating-opportunities-for-all/">Women’s History Month 2022: Creating Opportunities for All – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-strategic-partnerships-to-support-black-communities/">Sony Interactive Entertainment Announces Strategic Partnerships to Support Black Communities – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Pride</h4>
+          <p>Jun 30, 2021 -- 
+ As another Pride month in the United States comes to a close, Sony Interactive Entertainment’s (SIE) conversations about inclusivity, equality, and diversity are proud to continue, now and into the future, regardless of the time of year.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/gaming-creating-worlds-of-authentic-storytelling/">Gaming & Creating Worlds of Authentic Storytelling – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/celebrate-with-pride-everyday/">Celebrate with Pride Every Day – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>the New York Videogame Critics Circle</h4>
+          <p>Dec 1, 2020 -- I joined a games journalism after school program taught by the New York Videogame Critics Circle and based on my performance at the end of the program, I had the chance to get a paid internship in the Circle with the top journalists in New York City. I came into the program as an impoverished freshman with a passion for games and a ton of optimism.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/inspiring-others-through-writing-about-games/">Inspiring Others Through Writing about Games – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/new-york-videogame-critics-circle-and-sie/">New York Videogame Critics Circle and SIE – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>IP</h4>
+          <p>Feb 10, 2022 -- Stephanie Burns and her team are a full-service legal department for SIE, including IP, product counseling, technology transactions, privacy and security, litigation, compliance, and employment. “We cover all of our businesses end-to-end, with the ultimate goal of helping the PlayStation business produce the best video game products and services,” Stephanie Burns says.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/sie-leadership-spotlight-stephanie-burns/">“I wanted to be a part of a company where I can make an impact” – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/bungie-to-join-the-playstation-family/">Bungie to Join the PlayStation Family – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/bungie-joining-playstation-the-playstation-studios-perspective/">Bungie Joining PlayStation: The PlayStation Studios Perspective – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/introducing-haven-a-new-montreal-based-independent-studio/">Introducing Haven, a new Montreal-based independent studio – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Miles Morales</h4>
+          <p>Feb 3, 2022 -- Miles Morales , PlayStation has always embraced incredible storytelling. However, writing for video games goes so much deeper than the trials and tribulations of our heroes and villains.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/writing-for-video-games-part-1/">Writing for Video Games – Part 1: Balancing Story with Gameplay – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/inside-the-accessibility-features-of-ratchet-clank-rift-apart/">Inside the Accessibility Features of Ratchet & Clank: Rift Apart – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/creating-a-world-with-no-limitations/">Creating a World with No Limitations – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/from-the-sounds-we-choose-to-the-way-that-we-work-sie-continues-to-push-the-boundaries-of-music-in-games/">From the Sounds we Choose to the way that we Work, SIE Continues to Push the Boundaries of Music in Games – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/be-a-superstar-super-hero-in-marvels-spider-man-miles-morales/">Be a Superstar Super-Hero in Marvel’s Spider-Man: Miles Morales – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Tokyo</h4>
+          <p>Jun 23, 2021 -- PlayStation 4
+ SIE also continues to show support for the LGBTQ+ community by partnering with some of the most joyful and colorful Pride parades across the world – from Tokyo , London to San Diego .
+  Support with Pride
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/celebrate-with-pride-everyday/">Celebrate with Pride Every Day – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Miles</h4>
+          <p>Mar 26, 2021 -- Hackford pointed out Ghost of Tsushima and Marvel’s Spider-Man: Miles Morales as recent examples.
+  Ghost of Tsushima ’s musical reference point was Japanese medieval music.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/from-the-sounds-we-choose-to-the-way-that-we-work-sie-continues-to-push-the-boundaries-of-music-in-games/">From the Sounds we Choose to the way that we Work, SIE Continues to Push the Boundaries of Music in Games – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/be-a-superstar-super-hero-in-marvels-spider-man-miles-morales/">Be a Superstar Super-Hero in Marvel’s Spider-Man: Miles Morales – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Harold Goldberg</h4>
+          <p>Dec 1, 2020 -- The first time I went to a game festival to talk about the program at The New School, Circle president Harold Goldberg asked me to come up and say a few words. It was brief, but the audience was so empathetic, I was immediately happy.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/inspiring-others-through-writing-about-games/">Inspiring Others Through Writing about Games – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/new-york-videogame-critics-circle-and-sie/">New York Videogame Critics Circle and SIE – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Paul</h4>
+          <p>May 19, 2021 -- I thought gaming just wasn’t an option anymore,” says accessibility consultant Paul Lane, who has relied on a wheelchair since a multi-car collision at age 22. “Accessibility in gaming is so important.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/accessibility-consulting-opening-new-doors-for-all-gamers/">Accessibility Consulting: Opening New Doors for All Gamers – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Avalon</h4>
+          <p>Mar 18, 2021 -- To celebrate the next generation of female game developers and introduce Find Me as a great example of the impact camp at GMG can have, I caught up with two of the creators, Katie A. and Avalon B., to get their thoughts on their experience as we get closer to launch – and as we continue to celebrate the achievement of incredible women and girls.
+  Play  Video
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/celebrating-the-next-generation-of-female-game-developers-during-womens-history-month/">Celebrating the next generation of female game developers during Women’s History Month – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>The Hidden Genius Project</h4>
+          <p>Feb 25, 2021 -- Black Girls CODE , The Hidden Genius Project , Gameheads , and Black in Games (BIG) .
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-strategic-partnerships-to-support-black-communities/">Sony Interactive Entertainment Announces Strategic Partnerships to Support Black Communities – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>PlayStation Career Pathways Program</h4>
+          <p>Feb 9, 2021 -- 
+ To inspire and enable more diversity within the gaming industry, Sony Interactive Entertainment has created PlayStation Career Pathways Program. The first initiative is the Jackie Robinson Foundation MLB</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/announcing-jackie-robinson-foundation-mlb-the-show-scholars-supported-by-playstation-career-pathways/">Announcing Jackie Robinson Foundation MLB The Show Scholars Supported by PlayStation Career Pathways Program – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Europe</h4>
+          <p>Oct 28, 2021 -- ​​“With 50 percent of Europeans playing video games, Europe’s video games sector is committed to climate-friendly actions, and we work with our members to support European and global goals to address the climate crisis. We welcome Sony Interactive Entertainment’s longstanding and important commitment to drive sustainability across the company and its products through improving energy efficiency across their consoles, reducing the use of plastics, and transitioning to a more sustainable supply chain.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-5-and-its-energy-efficiency/">PlayStation 5 and its Energy Efficiency – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/our-improved-playstation-5-packaging/">Our Improved PlayStation 5 Packaging – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/welcoming-evo-into-the-playstation-family/">Welcoming Evo into the PlayStation Family – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>UN</h4>
+          <p>Feb 16, 2022 -- The program is supported by Play4Forests , an UN Environment Programme and UN-REDD initiative as part of the Playing for the Planet Alliance.
+  Our Projects and Partners –</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-community-supports-reforestation-projects-by-building-aloys-forests-around-the-world/">PlayStation Community supports reforestation projects by building Aloy’s Forests around the world – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-5-and-its-energy-efficiency/">PlayStation 5 and its Energy Efficiency – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstations-one-year-update-on-playing-for-the-planet/">PlayStation’s One Year Update on “Playing for the Planet” – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Canada</h4>
+          <p>Feb 16, 2022 -- WWF-Canada (Canada)
+  We are helping support WWF-Canada’s coastal habitat restoration in British Columbia; in particular their work to rehabilitate seagrass, a vital food and shelter resource for many aquatic species.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-community-supports-reforestation-projects-by-building-aloys-forests-around-the-world/">PlayStation Community supports reforestation projects by building Aloy’s Forests around the world – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/welcoming-evo-into-the-playstation-family/">Welcoming Evo into the PlayStation Family – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/be-a-superstar-super-hero-in-marvels-spider-man-miles-morales/">Be a Superstar Super-Hero in Marvel’s Spider-Man: Miles Morales – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Sackboy</h4>
+          <p>Nov 17, 2021 -- Sackboy: A Big Adventure (PS4, PS5) –</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/five-tips-on-how-to-take-control-of-your-gaming-experience/">Five Tips on how to Take Control of your Gaming Experience – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/from-the-sounds-we-choose-to-the-way-that-we-work-sie-continues-to-push-the-boundaries-of-music-in-games/">From the Sounds we Choose to the way that we Work, SIE Continues to Push the Boundaries of Music in Games – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/launching-sackboy-a-big-adventure-under-a-new-normal/">Launching Sackboy: A Big Adventure Under a “New Normal” – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>PlayStation Store</h4>
+          <p>Jun 30, 2021 -- PlayStation Store has gathered over 50+ of the best video game titles  that shine a light on LGBTQ+ characters, themes, and experiences
+  “Like any cultural medium, games benefit from portraying people as they are.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/gaming-creating-worlds-of-authentic-storytelling/">Gaming & Creating Worlds of Authentic Storytelling – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/celebrate-with-pride-everyday/">Celebrate with Pride Every Day – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/new-zealand-beach-clean-up-in-dreams/">New Zealand Beach Clean-up in Dreams – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Gran Turismo</h4>
+          <p>Feb 9, 2022 -- Gran Turismo Sophy, a collaboration between Polyphony Digital, Sony AI, and Sony Interactive Entertainment, takes machine learning to the next level by introducing an AI agent to a hyper-realistic racing simulation that requires rapid decisions within the complex dynamics of a race against opponents.
+
+  Sony AI COO Michael Spranger describes Gran Turismo Sophy as “an AI agent that learned to drive by itself at a very competitive level and is able to compete with the best GT Sport drivers in the world.”</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/gran-turismo-sophy/">Gran Turismo Sophy: Training AI to be a Champion-Level Racer – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/a-new-milestone-sie-sells-10-million-playstation-5-consoles-globally/">A New Milestone: SIE Sells 10 Million PlayStation 5 Consoles Globally – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Brandon</h4>
+          <p>May 19, 2021 -- “You can do research online, you can even pull from knowledge gained from other games, but there’s never going to be anything like working directly with a consultant,” says Brandon Cole, a gamer who is blind whose first consulting job was to help Naughty Dog make The Last of Us Part II accessible for people who are visually impaired. “Accessibility consultants will know more about the disabilities they have, or specialize in, than the developers themselves.”
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/accessibility-consulting-opening-new-doors-for-all-gamers/">Accessibility Consulting: Opening New Doors for All Gamers – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/naughty-dog-blazes-the-trail-for-accessible-storytelling/">Naughty Dog Blazes the Trail for Accessible Storytelling – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Sony Group Corporation</h4>
+          <p>May 17, 2021 -- As part of Sony Group Corporation, we strive for a future where everyone shares the moment, overcoming limitations of age, physical conditions and environment. We also want to help foster a world of creativity and technology as detailed on the Sony Corporate Blog by Chairman, President, and CEO of Sony Group Corporation, Kenichiro Yoshida.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/creating-a-world-with-no-limitations/">Creating a World with No Limitations – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Sony Corporation</h4>
+          <p>Apr 14, 2021 -- That’s why, in 2020, Sony Corporation established the “ Green Management 2025 ” plan following on from its launch of the “ One Blue Ocean Project ”. This includes a commitment to eliminate plastic use in newly designed small product packaging by 2025, and reduce the quantity of plastic packaging by 10% for other products.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/our-improved-playstation-5-packaging/">Our Improved PlayStation 5 Packaging – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Circle</h4>
+          <p>Dec 1, 2020 -- I joined a games journalism after school program taught by the New York Videogame Critics Circle and based on my performance at the end of the program, I had the chance to get a paid internship in the Circle with the top journalists in New York City. I came into the program as an impoverished freshman with a passion for games and a ton of optimism.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/inspiring-others-through-writing-about-games/">Inspiring Others Through Writing about Games – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/new-york-videogame-critics-circle-and-sie/">New York Videogame Critics Circle and SIE – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Bronx</h4>
+          <p>Dec 1, 2020 -- and I thought I would excel at the Bronx High School of Medical Science. The funny thing is, a videogame character, the social therapist in Until Dawn, inspired me to pursue that profession when I was younger.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/inspiring-others-through-writing-about-games/">Inspiring Others Through Writing about Games – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/new-york-videogame-critics-circle-and-sie/">New York Videogame Critics Circle and SIE – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>New Zealand</h4>
+          <p>Feb 16, 2022 -- Forest and Bird (New Zealand)
+  Flox, street stencil artist from New Zealand, has leant her creative expertise to launch Horizon Forbidden West via a highly-visible campaign that takes over urban locations across Auckland.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-community-supports-reforestation-projects-by-building-aloys-forests-around-the-world/">PlayStation Community supports reforestation projects by building Aloy’s Forests around the world – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/united-nations-playing-for-the-planet-alliance-annual-impact-report-2020/">United Nations ‘Playing for the Planet’ Alliance Annual Impact Report 2020 – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/new-zealand-beach-clean-up-in-dreams/">New Zealand Beach Clean-up in Dreams – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstations-one-year-update-on-playing-for-the-planet/">PlayStation’s One Year Update on “Playing for the Planet” – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>UK</h4>
+          <p>Oct 28, 2021 -- For all PS5 consoles sold between November 2020 to August 2021, this would amount to an estimated 6.2 TWh avoided electricity use over five years of use, which is equivalent to the annual average electricity use of around 1.7 million UK homes.
+  End-of-life recycling and improved packaging
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-5-and-its-energy-efficiency/">PlayStation 5 and its Energy Efficiency – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/celebrate-with-pride-everyday/">Celebrate with Pride Every Day – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/welcoming-evo-into-the-playstation-family/">Welcoming Evo into the PlayStation Family – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/new-zealand-beach-clean-up-in-dreams/">New Zealand Beach Clean-up in Dreams – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>PlayStation 4</h4>
+          <p>Jun 23, 2021 -- For Pride 2021, we have curated a bespoke game list on PlayStation Store, accumulating over 50+ of the best video game titles on PlayStation 4 and PlayStation 5, that shine a light on LGBTQ+ characters, themes, and experiences. Check it out</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/celebrate-with-pride-everyday/">Celebrate with Pride Every Day – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/creating-a-world-with-no-limitations/">Creating a World with No Limitations – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/our-improved-playstation-5-packaging/">Our Improved PlayStation 5 Packaging – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/united-nations-playing-for-the-planet-alliance-annual-impact-report-2020/">United Nations ‘Playing for the Planet’ Alliance Annual Impact Report 2020 – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Sony Interactive Entertainment’s</h4>
+          <p>Oct 28, 2021 -- The hub provides an overview of our ongoing efforts to improve energy efficiency, energy use, detailed power consumption statistics, as well as Sony Interactive Entertainment’s wider environmental activities and efforts.  It also offers tips and advice on how to configure your console for best energy efficiency, or on how PlayStation Now streaming service can be used for optimum energy efficiency and carbon emissions. </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-5-and-its-energy-efficiency/">PlayStation 5 and its Energy Efficiency – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/play-at-home-recap-60-million-games-redeemed/">Play At Home Recap: 60 Million Games Redeemed – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/gaming-creating-worlds-of-authentic-storytelling/">Gaming & Creating Worlds of Authentic Storytelling – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-strategic-partnerships-to-support-black-communities/">Sony Interactive Entertainment Announces Strategic Partnerships to Support Black Communities – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/announcing-jackie-robinson-foundation-mlb-the-show-scholars-supported-by-playstation-career-pathways/">Announcing Jackie Robinson Foundation MLB The Show Scholars Supported by PlayStation Career Pathways Program – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>AI</h4>
+          <p>Feb 9, 2022 -- 
+
+ AI breakthroughs to date range from AI competitors who have mastered strategy games such as chess, shogi, and Go to more complex, real-time multiplayer strategy games. Gran Turismo Sophy, a collaboration between Polyphony Digital, Sony AI, and Sony Interactive Entertainment, takes machine learning to the next level by introducing an AI agent to a hyper-realistic racing simulation that requires rapid decisions within the complex dynamics of a race against opponents.
+
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/gran-turismo-sophy/">Gran Turismo Sophy: Training AI to be a Champion-Level Racer – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Maquette</h4>
+          <p>Feb 3, 2022 -- Miles Morales , F.I.S.T.: Forged in Shadow Torch , and Maquette about what it means to write for video games, their respective career paths, and how aspiring writers can get into the industry.
+  First things first</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/writing-for-video-games-part-1/">Writing for Video Games – Part 1: Balancing Story with Gameplay – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Family</h4>
+          <p>Jun 8, 2021 -- Family settings provide parents with more control and options
+ When it comes to protecting minors on PS5, we provided parents and guardians with more control and options which allow them to navigate their children’s online experience by using the Family Manager feature . The designated Family Manager can determine what features and functions their child, early teen and older teen accounts have access to, including communication, user-generated content and playing or purchasing games.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/continuous-enhancements-to-ensure-a-positive-experience-for-all-players/">Continuous Enhancements to Ensure a Positive Experience for All Players – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Black Collegiate Gaming Association</h4>
+          <p>Jun 2, 2021 -- Today, I’d like to announce our new partnership with Black Collegiate Gaming Association (BCGA), which includes a new scholarship program designed to help ensure success for the next generation of gaming industry leaders. The BCGA success scholarship supported by the PlayStation Career Pathways Program is an investment in the education of college students and their future.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/welcoming-the-black-collegiate-gaming-association-as-new-strategic-partner-to-support-the-next-generation-of-gaming-industry-leaders/">Welcoming the Black Collegiate Gaming Association as New Strategic Partner to Support the Next Generation of Gaming Industry Leaders – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Ratchet</h4>
+          <p>May 20, 2021 -- After the release of Marvel’s Spider-Man, we received an outpouring of positive feedback from the disabled community and this further strengthened our commitment to add more accessibility features to Marvel’s Spider-Man Remastered for the PlayStation 5, Marvel’s Spider-Man: Miles Morales, and the upcoming Ratchet & Clank: Rift Apart, the first Ratchet & Clank game with an accessibility feature list.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/inside-the-accessibility-features-of-ratchet-clank-rift-apart/">Inside the Accessibility Features of Ratchet & Clank: Rift Apart – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Shortcut</h4>
+          <p>May 20, 2021 -- Once enabled, these settings can be quickly toggled on and off with a Shortcut, which we cover later in this post.
+
+
+  High Contrast Background desaturates the background and leaves key elements like enemies or traversal objects in full color to help them stand out.
+
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/inside-the-accessibility-features-of-ratchet-clank-rift-apart/">Inside the Accessibility Features of Ratchet & Clank: Rift Apart – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Nefarious City</h4>
+          <p>May 20, 2021 -- In the State of Play , you can see enemy types from Horned Toads to Needle Wasps in Sargasso to Nefarious Troopers of all shapes and sizes in Nefarious City.
+
+
+  We created three new shader categories – Interactable , Hazard , and Collectible – to help key items stand out while exploring or taking on enemies.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/inside-the-accessibility-features-of-ratchet-clank-rift-apart/">Inside the Accessibility Features of Ratchet & Clank: Rift Apart – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Toggle</h4>
+          <p>May 20, 2021 -- Toggles
+  Turning button holds into toggles is a very useful and popular feature as hands can cramp and fingers can become fatigued.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/inside-the-accessibility-features-of-ratchet-clank-rift-apart/">Inside the Accessibility Features of Ratchet & Clank: Rift Apart – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>R2</h4>
+          <p>May 20, 2021 -- The Enforcer
+ Default Half Press R2 fires a single barrel Full Press R2 fires</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/inside-the-accessibility-features-of-ratchet-clank-rift-apart/">Inside the Accessibility Features of Ratchet & Clank: Rift Apart – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Morgan</h4>
+          <p>May 19, 2021 -- “It can be devastating when a game is unintentionally designed that limits access for gamers with disabilities,” says Morgan Baker, who found her way to consulting after writing about the challenges she encountered as a deaf gamer. “One developer reached out to me asking about my experience, and after a thorough discussion, they changed the design of the game</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/accessibility-consulting-opening-new-doors-for-all-gamers/">Accessibility Consulting: Opening New Doors for All Gamers – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>GAAD</h4>
+          <p>May 17, 2021 -- 
+ The Third Thursday of each May is Global Accessibility Awareness Day (GAAD). It is a moment to get everyone talking, thinking, and learning about accessibility.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/creating-a-world-with-no-limitations/">Creating a World with No Limitations – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Nishino</h4>
+          <p>Mar 22, 2021 -- Hideaki Nishino has been promoted to SVP, Platform Experience and will oversee Network Engineering and Operations, R&D, Design, Data Strategy and Operations in addition to managing Product and Platform development. Nishino has a long history with Sony Interactive Entertainment, having most recently led Platform Planning and Management.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>CFO</h4>
+          <p>Mar 22, 2021 -- Kazuhiko Takeda, Deputy President and CFO is retiring in June 2021 after nearly 40 years of service at Sony. Takeda joined Sony Corporation in 1983.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Asian</h4>
+          <p>Mar 18, 2021 -- 
+ Since the start of the pandemic, there has been an increase in violence against the Asian and Pacific Islander community, and over the last few weeks in particular, there has been a rise of anti-Asian violence especially across the US. At Sony Interactive Entertainment, we reject racism, bigotry, and hate against Asian Americans or any other community.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-continues-to-fight-anti-asian-discrimination-and-provides-resources-for-allyship/">Sony Interactive Entertainment continues to fight Anti-Asian Discrimination and provides Resources for Allyship – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>The Show</h4>
+          <p>Feb 9, 2021 -- The Show Scholars created in partnership with the Jackie Robinson Foundation (JRF). The program will offer scholarships, mentorships, internships, and support to students from underrepresented groups to complete their secondary education and embark on a career path into the fields of technology and gaming.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/announcing-jackie-robinson-foundation-mlb-the-show-scholars-supported-by-playstation-career-pathways/">Announcing Jackie Robinson Foundation MLB The Show Scholars Supported by PlayStation Career Pathways Program – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Jackie Robinson</h4>
+          <p>Feb 9, 2021 -- The first initiative is the Jackie Robinson Foundation MLB The Show Scholars created in partnership with the Jackie Robinson Foundation (JRF).</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/announcing-jackie-robinson-foundation-mlb-the-show-scholars-supported-by-playstation-career-pathways/">Announcing Jackie Robinson Foundation MLB The Show Scholars Supported by PlayStation Career Pathways Program – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>NYU</h4>
+          <p>Dec 1, 2020 -- I worked up the courage to talk to Eric Zimmerman, a professor at NYU. He encouraged me.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/inspiring-others-through-writing-about-games/">Inspiring Others Through Writing about Games – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>France</h4>
+          <p>Feb 16, 2022 -- MyTree (France)
+  In Partnership with MyTree we will plant a tree for every five “Reached the Daunt” trophies achieved in Horizon Forbidden West by players who have opted-in for the activation, limited to a certain amount.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-community-supports-reforestation-projects-by-building-aloys-forests-around-the-world/">PlayStation Community supports reforestation projects by building Aloy’s Forests around the world – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-5-and-its-energy-efficiency/">PlayStation 5 and its Energy Efficiency – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/welcoming-evo-into-the-playstation-family/">Welcoming Evo into the PlayStation Family – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Sony Group</h4>
+          <p>Feb 9, 2022 -- Please check out a video message from CEO of Sony Group, Kenichiro Yoshida , and read the latest from Sony Corporate Blog about this fantastic project
+  Play  Video
+
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/gran-turismo-sophy/">Gran Turismo Sophy: Training AI to be a Champion-Level Racer – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/celebrate-with-pride-everyday/">Celebrate with Pride Every Day – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Marvel’s Spider-Man: Miles Morales</h4>
+          <p>May 20, 2021 -- After the release of Marvel’s Spider-Man, we received an outpouring of positive feedback from the disabled community and this further strengthened our commitment to add more accessibility features to Marvel’s Spider-Man Remastered for the PlayStation 5, Marvel’s Spider-Man: Miles Morales, and the upcoming Ratchet & Clank: Rift Apart, the first Ratchet & Clank game with an accessibility feature list.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/inside-the-accessibility-features-of-ratchet-clank-rift-apart/">Inside the Accessibility Features of Ratchet & Clank: Rift Apart – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/from-the-sounds-we-choose-to-the-way-that-we-work-sie-continues-to-push-the-boundaries-of-music-in-games/">From the Sounds we Choose to the way that we Work, SIE Continues to Push the Boundaries of Music in Games – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/be-a-superstar-super-hero-in-marvels-spider-man-miles-morales/">Be a Superstar Super-Hero in Marvel’s Spider-Man: Miles Morales – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Sustainable Coastlines</h4>
+          <p>Jan 27, 2021 -- SIE has also collaborated with UNEP to produce a VR360 educational video , created using Dreams, and co-created an environmental game which sought to gamify collecting marine litter with local New Zealand charity, Sustainable Coastlines .
+  The Green Game Jam in 2020 saw 11 mobile gaming companies test, pilot, and explore a range of green activations in games which ended up reaching over 110 million people 1 .</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/united-nations-playing-for-the-planet-alliance-annual-impact-report-2020/">United Nations ‘Playing for the Planet’ Alliance Annual Impact Report 2020 – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/new-zealand-beach-clean-up-in-dreams/">New Zealand Beach Clean-up in Dreams – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstations-one-year-update-on-playing-for-the-planet/">PlayStation’s One Year Update on “Playing for the Planet” – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>DualSense</h4>
+          <p>Nov 17, 2021 -- It is a fun way for players and families to get familiar with the DualSense controller functions. MLB</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/five-tips-on-how-to-take-control-of-your-gaming-experience/">Five Tips on how to Take Control of your Gaming Experience – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-5-and-its-energy-efficiency/">PlayStation 5 and its Energy Efficiency – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/a-new-milestone-sie-sells-10-million-playstation-5-consoles-globally/">A New Milestone: SIE Sells 10 Million PlayStation 5 Consoles Globally – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/empowering-all-abilities-of-gamers/">Empowering All Abilities of Gamers – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>the United States</h4>
+          <p>Jun 30, 2021 -- 
+ As another Pride month in the United States comes to a close, Sony Interactive Entertainment’s (SIE) conversations about inclusivity, equality, and diversity are proud to continue, now and into the future, regardless of the time of year.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/gaming-creating-worlds-of-authentic-storytelling/">Gaming & Creating Worlds of Authentic Storytelling – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/celebrate-with-pride-everyday/">Celebrate with Pride Every Day – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/announcing-jackie-robinson-foundation-mlb-the-show-scholars-supported-by-playstation-career-pathways/">Announcing Jackie Robinson Foundation MLB The Show Scholars Supported by PlayStation Career Pathways Program – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/new-york-videogame-critics-circle-and-sie/">New York Videogame Critics Circle and SIE – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>US</h4>
+          <p>Jun 23, 2021 -- SIE, as part of Sony Group Cooperation, also continues to advocate for equal rights and protections for transgender people as part of the LGBTQ+ commnity; this includes for example our support of the Equality Act in the US and the Trans Rights Are Human Rights campaign in the UK.
+  Today, we want to invite you to celebrate Pride and the LGBTQ+ community around the world with us, and to learn more about our efforts.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/celebrate-with-pride-everyday/">Celebrate with Pride Every Day – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-continues-to-fight-anti-asian-discrimination-and-provides-resources-for-allyship/">Sony Interactive Entertainment continues to fight Anti-Asian Discrimination and provides Resources for Allyship – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/be-a-superstar-super-hero-in-marvels-spider-man-miles-morales/">Be a Superstar Super-Hero in Marvel’s Spider-Man: Miles Morales – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/girls-make-games-2020-recap/">Girls Make Games 2020 Recap – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Paul Lane</h4>
+          <p>May 19, 2021 -- I thought gaming just wasn’t an option anymore,” says accessibility consultant Paul Lane, who has relied on a wheelchair since a multi-car collision at age 22. “Accessibility in gaming is so important.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/accessibility-consulting-opening-new-doors-for-all-gamers/">Accessibility Consulting: Opening New Doors for All Gamers – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/creating-a-world-with-no-limitations/">Creating a World with No Limitations – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/inside-the-abilities-expo-virtual-experience-with-gaming-accessibility-consultant-and-ambassador-paul-amadeus-lane/">Inside the Abilities Expo Virtual Experience with Gaming Accessibility Consultant and Ambassador Paul Amadeus Lane – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/empowering-all-abilities-of-gamers/">Empowering All Abilities of Gamers – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>American</h4>
+          <p>Apr 15, 2021 -- Firstly, a talk dedicated to ‘ The Power of Black Voices: Echoes of the Past and Future’ which highlighted Black voices in history, current pop culture and in future technology – it started with a narration of Black leaders and influencers during the civil rights era, transition into current pop culture, and Black culture’s influence on American culture.
+  Secondly, a virtual panel of Black executives from each Sony group to amplify Black voices across our company, and therefore within the various entertainment sectors, including pictures, music, electronics, and gaming.
+
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/inside-sony-interactive-entertainment-blackplaystation/">Inside Sony Interactive Entertainment: Black@PlayStation – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-continues-to-fight-anti-asian-discrimination-and-provides-resources-for-allyship/">Sony Interactive Entertainment continues to fight Anti-Asian Discrimination and provides Resources for Allyship – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-strategic-partnerships-to-support-black-communities/">Sony Interactive Entertainment Announces Strategic Partnerships to Support Black Communities – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/announcing-jackie-robinson-foundation-mlb-the-show-scholars-supported-by-playstation-career-pathways/">Announcing Jackie Robinson Foundation MLB The Show Scholars Supported by PlayStation Career Pathways Program – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Girls Make Games</h4>
+          <p>Mar 8, 2022 -- Organizations such as Girls Make Games , Black Girls CODE , Innovate Her , and Girls Who Code drive impactful programs for the next generation of talent by providing girls and women access to STEAM projects in order to pursue a career path in the tech and gaming industries.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/womens-history-month-2022-creating-opportunities-for-all/">Women’s History Month 2022: Creating Opportunities for All – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/celebrating-the-next-generation-of-female-game-developers-during-womens-history-month/">Celebrating the next generation of female game developers during Women’s History Month – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Aloy</h4>
+          <p>Feb 16, 2022 -- 
+ In Horizon Forbidden West, Aloy’s quest to restore order and balance to her world is a reminder about the importance of preserving nature and biodiversity on planet Earth in the years and decades to come. An inspiration to drive change.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-community-supports-reforestation-projects-by-building-aloys-forests-around-the-world/">PlayStation Community supports reforestation projects by building Aloy’s Forests around the world – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-x-uefa-champions-league-play-has-no-limits/">PlayStation x UEFA Champions League – Play Has No Limits – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Forest</h4>
+          <p>Feb 16, 2022 -- Together with our PlayStation community and selected partners, Guerrilla and Sony Interactive Entertainment (SIE) are building Aloy’s Forests by supporting reforestation projects in local communities around the world. The program is supported by Play4Forests , an UN Environment Programme and UN-REDD initiative as part of the Playing for the Planet Alliance.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-community-supports-reforestation-projects-by-building-aloys-forests-around-the-world/">PlayStation Community supports reforestation projects by building Aloy’s Forests around the world – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/accessibility-and-dreams-one-button-game-jam/">Accessibility and Dreams: One Button Game Jam – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>SVP</h4>
+          <p>Feb 10, 2022 -- SVP, General Counsel Stephanie Burns, who brings an incredible wealth of experience and knowledge, is one such leader.
+  Many may not understand how departments work together to deliver high-calibre experiences across PlayStation.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/sie-leadership-spotlight-stephanie-burns/">“I wanted to be a part of a company where I can make an impact” – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>the Family Video Game Database</h4>
+          <p>Feb 8, 2022 -- We are also working closely with partners such as the Family Video Game Database who share the same mission with us. To help parents understand and navigate their childrens’ gaming experiences in order to make the right choices for them and their family.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/safer-internet-day-2022-our-continued-commitment-to-keep-gaming-joyful/">Safer Internet Day 2022: Our Continued Commitment to Keep Gaming Joyful – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-partners-with-family-video-game-database/">PlayStation Partners With Family Video Game Database – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Marvel’s Spider-Man:</h4>
+          <p>Feb 3, 2022 -- The Last of Us Part 2 , and Marvel’s Spider-Man: Miles Morales , PlayStation has always embraced incredible storytelling.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/writing-for-video-games-part-1/">Writing for Video Games – Part 1: Balancing Story with Gameplay – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/inside-the-accessibility-features-of-ratchet-clank-rift-apart/">Inside the Accessibility Features of Ratchet & Clank: Rift Apart – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>PlayStation Safety</h4>
+          <p>Nov 17, 2021 -- Report player by console or mobile device to PlayStation Safety team . You can report many things such as in-game behavior, things created or shared within a game, something created or shared outside of a game, or something in profile.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/five-tips-on-how-to-take-control-of-your-gaming-experience/">Five Tips on how to Take Control of your Gaming Experience – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/online-gaming-safety-tips-for-families/">Online Gaming Safety Tips for Families – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>PS4</h4>
+          <p>Oct 28, 2021 -- PS5 performance is substantially greater than PS4 (for example around 100 times faster comparing the PS5 SSD read speed with the PS4 HDD), and as for the previous generation, this can drive up power consumption at launch, particularly for gaming. Our teams focused on ensuring our recently launched console is still energy efficient.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-5-and-its-energy-efficiency/">PlayStation 5 and its Energy Efficiency – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/empowering-all-abilities-of-gamers/">Empowering All Abilities of Gamers – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Returnal</h4>
+          <p>Aug 27, 2021 -- Whether it’s immersing yourself in the serene natural beauty of Ghost of Tsushima , diving into an unforgiving world in Returnal , taking part in the uplifting journey of friends in Ratchet & Clank: Rift Apart , or chasing an adrenaline rush in the upcoming Gran Turismo 7</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-harnessing-the-power-of-emotion/">PlayStation: Harnessing the Power of Emotion – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/from-the-sounds-we-choose-to-the-way-that-we-work-sie-continues-to-push-the-boundaries-of-music-in-games/">From the Sounds we Choose to the way that we Work, SIE Continues to Push the Boundaries of Music in Games – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Marvel’s Spider-Man</h4>
+          <p>May 20, 2021 -- Marvel’s Spider-Man released in 2018. For our first foray into accessibility, we worked with consultants and focused on a short list of features that would have the biggest impact.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/inside-the-accessibility-features-of-ratchet-clank-rift-apart/">Inside the Accessibility Features of Ratchet & Clank: Rift Apart – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/from-the-sounds-we-choose-to-the-way-that-we-work-sie-continues-to-push-the-boundaries-of-music-in-games/">From the Sounds we Choose to the way that we Work, SIE Continues to Push the Boundaries of Music in Games – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>VP</h4>
+          <p>Mar 22, 2021 -- Hideaki Nishino has been promoted to SVP, Platform Experience and will oversee Network Engineering and Operations, R&D, Design, Data Strategy and Operations in addition to managing Product and Platform development. Nishino has a long history with Sony Interactive Entertainment, having most recently led Platform Planning and Management.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/online-gaming-safety-tips-for-families/">Online Gaming Safety Tips for Families – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Kimari Rennis</h4>
+          <p>Dec 1, 2020 -- Sherri Smith, Dan Ackerman, Kimari Rennis, and Harold Goldberg
+  Whenever I reminisce about all the wonderful opportunities the NYVGCC has given me, all the opportunities Harold Goldberg has given me, I think back to the year before I entered high school and joined the group.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/inspiring-others-through-writing-about-games/">Inspiring Others Through Writing about Games – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/new-york-videogame-critics-circle-and-sie/">New York Videogame Critics Circle and SIE – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>California</h4>
+          <p>Feb 16, 2022 -- Through this initiative, SIE will help to complete three major reforestation projects in forests of need across areas in California, Florida, and Wisconsin. Click here to learn more.
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-community-supports-reforestation-projects-by-building-aloys-forests-around-the-world/">PlayStation Community supports reforestation projects by building Aloy’s Forests around the world – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-continues-to-fight-anti-asian-discrimination-and-provides-resources-for-allyship/">Sony Interactive Entertainment continues to fight Anti-Asian Discrimination and provides Resources for Allyship – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Germany</h4>
+          <p>Feb 16, 2022 -- (Bavaria division, Germany)
+  Together with Stiftung “Wir helfen dem Wald” (SWD)</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-community-supports-reforestation-projects-by-building-aloys-forests-around-the-world/">PlayStation Community supports reforestation projects by building Aloy’s Forests around the world – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/play-at-home-recap-60-million-games-redeemed/">Play At Home Recap: 60 Million Games Redeemed – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/welcoming-evo-into-the-playstation-family/">Welcoming Evo into the PlayStation Family – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>PlayStation Careers</h4>
+          <p>Feb 10, 2022 -- Check out our available open roles at PlayStation Careers .
+</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/sie-leadership-spotlight-stephanie-burns/">“I wanted to be a part of a company where I can make an impact” – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-studios-in-the-cloud/">PlayStation Studios in the Cloud – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/inside-sony-interactive-entertainment-blackplaystation/">Inside Sony Interactive Entertainment: Black@PlayStation – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Kenichiro Yoshida</h4>
+          <p>Feb 9, 2022 -- Please check out a video message from CEO of Sony Group, Kenichiro Yoshida , and read the latest from Sony Corporate Blog about this fantastic project
+  Play  Video
+
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/gran-turismo-sophy/">Gran Turismo Sophy: Training AI to be a Champion-Level Racer – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/creating-a-world-with-no-limitations/">Creating a World with No Limitations – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/sony-interactive-entertainment-announces-new-engineering-and-finance-leadership/">Sony Interactive Entertainment Announces New Engineering and Finance Leadership – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>European</h4>
+          <p>Oct 28, 2021 -- ​​“With 50 percent of Europeans playing video games, Europe’s video games sector is committed to climate-friendly actions, and we work with our members to support European and global goals to address the climate crisis. We welcome Sony Interactive Entertainment’s longstanding and important commitment to drive sustainability across the company and its products through improving energy efficiency across their consoles, reducing the use of plastics, and transitioning to a more sustainable supply chain.</p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/playstation-5-and-its-energy-efficiency/">PlayStation 5 and its Energy Efficiency – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/our-improved-playstation-5-packaging/">Our Improved PlayStation 5 Packaging – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/be-a-superstar-super-hero-in-marvels-spider-man-miles-morales/">Be a Superstar Super-Hero in Marvel’s Spider-Man: Miles Morales – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  <div class="row border-bottom mb-4">
+          <h4>Tiffany Hester</h4>
+          <p>Jun 23, 2021 -- “We want to be a positive force for culture and belonging – not only for our PlayStation community, creators, and partners but also for our employees as we continue to build an equitable and inclusive workplace here at SIE,” says Tiffany Hester, Director Diversity, Equity & Inclusion at Sony Interactive Entertainment. “Even though there is much more work ahead of us, I could not be more proud of our efforts and our global Pride@PlayStation employee network groups, seeing all they’ve accomplished and the impact they are making.”
+ </p>
+          <ul class="element" data-config='{ "type": "list", "limit": 1, "element": "li", "more": "see more articles that mention this term", "less": "show less", "number": false }'><li><a class="result-link" href="https://www.sie.com/en/blog/celebrate-with-pride-everyday/">Celebrate with Pride Every Day – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/welcoming-the-black-collegiate-gaming-association-as-new-strategic-partner-to-support-the-next-generation-of-gaming-industry-leaders/">Welcoming the Black Collegiate Gaming Association as New Strategic Partner to Support the Next Generation of Gaming Industry Leaders – SIE Blog – English</a></li><li><a class="result-link" href="https://www.sie.com/en/blog/announcing-jackie-robinson-foundation-mlb-the-show-scholars-supported-by-playstation-career-pathways/">Announcing Jackie Robinson Foundation MLB The Show Scholars Supported by PlayStation Career Pathways Program – SIE Blog – English</a></li>
+          </ul>        
+        </div>
+  
+        </div><!-- Outer col -->
+    </div><!-- Container -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
+  
